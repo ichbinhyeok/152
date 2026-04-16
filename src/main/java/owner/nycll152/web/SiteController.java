@@ -38,6 +38,9 @@ import java.util.Map;
 @Controller
 public class SiteController {
 
+    private static final String ORGANIZATION_NAME = "LL152 Guidance Desk";
+    private static final String CONTACT_EMAIL = "shinhyeok22@gmail.com";
+
     private final RouteService routeService;
     private final OpsService opsService;
     private final AppProperties appProperties;
@@ -132,6 +135,18 @@ public class SiteController {
         model.addAttribute("canonicalUrl", canonicalUrl("/admin", request));
         applyTeamTrust(model, List.of(), false);
         return "pages/admin";
+    }
+
+    @GetMapping("/{slug:[a-z0-9\\-]+}")
+    public String routeWithoutTrailingSlash(@PathVariable String slug) {
+        routeService.requireBySlug(slug);
+        return "redirect:/" + slug + "/";
+    }
+
+    @GetMapping("/districts/{district}")
+    public String districtWithoutTrailingSlash(@PathVariable String district) {
+        routeService.districtOverlayPage(district);
+        return "redirect:/districts/" + district + "/";
     }
 
     @GetMapping("/admin/download/leads.csv")
@@ -247,9 +262,15 @@ public class SiteController {
         return jsonLd(Map.of(
                 "@context", "https://schema.org",
                 "@type", "Organization",
-                "name", "LL152 Engine team",
+                "name", ORGANIZATION_NAME,
                 "url", siteUrl,
-                "description", "A source-checked team workflow for NYC Local Law 152 decision support.",
+                "description", "A virtual team publishing source-checked NYC Local Law 152 routing guidance.",
+                "email", CONTACT_EMAIL,
+                "contactPoint", List.of(Map.of(
+                        "@type", "ContactPoint",
+                        "email", CONTACT_EMAIL,
+                        "contactType", "customer support"
+                )),
                 "knowsAbout", List.of(
                         "NYC Local Law 152",
                         "Gas piping inspections",
@@ -264,11 +285,11 @@ public class SiteController {
         return jsonLd(Map.of(
                 "@context", "https://schema.org",
                 "@type", "WebSite",
-                "name", "LL152 Engine",
+                "name", ORGANIZATION_NAME,
                 "url", siteUrl,
                 "publisher", Map.of(
                         "@type", "Organization",
-                        "name", "LL152 Engine team"
+                        "name", ORGANIZATION_NAME
                 )
         ));
     }
@@ -297,7 +318,7 @@ public class SiteController {
                 "dateModified", teamSourceCheckedAt,
                 "publisher", Map.of(
                         "@type", "Organization",
-                        "name", "LL152 Engine team"
+                        "name", ORGANIZATION_NAME
                 ),
                 "about", "NYC Local Law 152"
         ));

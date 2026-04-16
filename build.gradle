@@ -39,3 +39,9 @@ jte {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+tasks.named('processResources') {
+	from('data') {
+		into 'data'
+	}
+}

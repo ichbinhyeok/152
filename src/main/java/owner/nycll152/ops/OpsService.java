@@ -1,6 +1,7 @@
 package owner.nycll152.ops;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import owner.nycll152.config.AppDataLocator;
 import owner.nycll152.config.AppProperties;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -12,6 +13,7 @@ import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.time.OffsetDateTime;
 import java.util.Comparator;
@@ -29,10 +31,12 @@ public class OpsService {
             .build();
 
     private final AppProperties appProperties;
+    private final AppDataLocator appDataLocator;
     private final ObjectMapper objectMapper;
 
-    public OpsService(AppProperties appProperties, ObjectMapper objectMapper) {
+    public OpsService(AppProperties appProperties, AppDataLocator appDataLocator, ObjectMapper objectMapper) {
         this.appProperties = appProperties;
+        this.appDataLocator = appDataLocator;
         this.objectMapper = objectMapper;
     }
 
@@ -85,7 +89,9 @@ public class OpsService {
     }
 
     public synchronized List<RouteStatusRecord> loadRouteStatuses() {
-        try (CSVParser csvParser = CSVParser.parse(appProperties.routeStatusPath(), StandardCharsets.UTF_8, CSV_FORMAT)) {
+        Path routeStatusPath = appDataLocator.ensureRouteStatusFile();
+
+        try (CSVParser csvParser = CSVParser.parse(routeStatusPath, StandardCharsets.UTF_8, CSV_FORMAT)) {
             return csvParser.stream()
                     .map(this::toRouteStatusRecord)
                     .toList();
@@ -186,7 +192,7 @@ public class OpsService {
 
     private PromotionReview loadPromotionReview() {
         try {
-            return objectMapper.readValue(appProperties.promotionReviewPath().toFile(), PromotionReview.class);
+            return objectMapper.readValue(appDataLocator.ensurePromotionReviewFile().toFile(), PromotionReview.class);
         } catch (IOException exception) {
             throw new UncheckedIOException("Unable to read promotion review file", exception);
         }

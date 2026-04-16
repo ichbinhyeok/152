@@ -2,12 +2,13 @@ package owner.nycll152.pages;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import owner.nycll152.config.AppDataLocator;
 import owner.nycll152.config.AppProperties;
 import org.springframework.stereotype.Repository;
 
 import java.io.IOException;
+import java.io.Reader;
 import java.io.UncheckedIOException;
-import java.nio.file.Files;
 import java.util.List;
 import java.util.Optional;
 
@@ -17,18 +18,18 @@ public class RouteRepository {
     private static final TypeReference<List<RoutePage>> ROUTE_LIST = new TypeReference<>() {};
 
     private final ObjectMapper objectMapper;
-    private final AppProperties appProperties;
+    private final AppDataLocator appDataLocator;
 
-    public RouteRepository(ObjectMapper objectMapper, AppProperties appProperties) {
+    public RouteRepository(ObjectMapper objectMapper, AppDataLocator appDataLocator) {
         this.objectMapper = objectMapper;
-        this.appProperties = appProperties;
+        this.appDataLocator = appDataLocator;
     }
 
     public List<RoutePage> loadAll() {
-        try {
-            return objectMapper.readValue(Files.newBufferedReader(appProperties.routeInventoryPath()), ROUTE_LIST);
+        try (Reader reader = appDataLocator.openRouteInventoryReader()) {
+            return objectMapper.readValue(reader, ROUTE_LIST);
         } catch (IOException exception) {
-            throw new UncheckedIOException("Unable to read route inventory from " + appProperties.routeInventoryPath(), exception);
+            throw new UncheckedIOException("Unable to read route inventory.", exception);
         }
     }
 

@@ -3,6 +3,7 @@ package owner.nycll152.security;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.springframework.stereotype.Component;
+import owner.nycll152.config.AppDataLocator;
 import owner.nycll152.config.AppProperties;
 
 import jakarta.annotation.PostConstruct;
@@ -16,9 +17,11 @@ import java.util.List;
 public class DeploymentGuard {
 
     private final AppProperties appProperties;
+    private final AppDataLocator appDataLocator;
 
-    public DeploymentGuard(AppProperties appProperties) {
+    public DeploymentGuard(AppProperties appProperties, AppDataLocator appDataLocator) {
         this.appProperties = appProperties;
+        this.appDataLocator = appDataLocator;
     }
 
     @PostConstruct
@@ -28,7 +31,7 @@ public class DeploymentGuard {
         }
 
         try (CSVParser csvParser = CSVParser.parse(
-                appProperties.routeStatusPath(),
+                appDataLocator.ensureRouteStatusFile(),
                 StandardCharsets.UTF_8,
                 CSVFormat.DEFAULT.builder().setHeader().setSkipHeaderRecord(true).build()
         )) {

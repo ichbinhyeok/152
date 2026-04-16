@@ -60,7 +60,7 @@ public class CheckerService {
             nextStepTitle = "Verify the exempt-building record before you act on an LL152 notice.";
             nextStepSummary = "DOB treats specific DOF classes as exempt R-3 style properties. If the property profile is wrong, use the exempt-building route rather than assuming the notice is final.";
             recommendedRoute = "/exempt-building-notification/";
-            primaryCtaLabel = "Request exempt-building review";
+            primaryCtaLabel = "Send case details";
             primaryCtaIntent = "filing_help";
             scenarioKey = "possible_exempt_building";
             nextActionChecklist = List.of(
@@ -74,7 +74,7 @@ public class CheckerService {
             nextStepTitle = "Use the no-gas-piping filing path.";
             nextStepSummary = "DOB now treats no-gas-piping certification as a one-time submission, and the certification can come from a utility company, registered design professional, or licensed master plumber.";
             recommendedRoute = "/ll152-no-gas-piping-certification/";
-            primaryCtaLabel = "Request no-gas certification review";
+            primaryCtaLabel = "Send case details";
             primaryCtaIntent = "certification_help";
             scenarioKey = "no_gas_piping";
             nextActionChecklist = List.of(
@@ -88,7 +88,7 @@ public class CheckerService {
             nextStepTitle = "Use the no-active-gas-service documentation path.";
             nextStepSummary = "DOB requires utility-company documentation every cycle for buildings that still have gas piping but no active gas service, plus an owner statement that no appliances remain connected.";
             recommendedRoute = "/ll152-no-active-gas-service/";
-            primaryCtaLabel = "Request no-active-service review";
+            primaryCtaLabel = "Send case details";
             primaryCtaIntent = "filing_help";
             scenarioKey = "no_active_gas_service";
             nextActionChecklist = List.of(
@@ -104,7 +104,7 @@ public class CheckerService {
                     + rules.filingTimeline().gps1ToOwnerDays() + " days, and the owner must submit GPS2 within "
                     + rules.filingTimeline().gps2ToDobDays() + " days of inspection.";
             recommendedRoute = "/filing-next-step/";
-            primaryCtaLabel = "Request inspection-path review";
+            primaryCtaLabel = "Send case details";
             primaryCtaIntent = "lmp_help";
             scenarioKey = "active_gas_service";
             nextActionChecklist = List.of(
@@ -120,7 +120,7 @@ public class CheckerService {
             nextStepTitle = "Tighten the gas-status split before you rely on the filing path.";
             nextStepSummary = "The main official branch point is whether the building has no gas piping, still has gas piping but no active service, or has gas piping with active service.";
             recommendedRoute = "/filing-next-step/";
-            primaryCtaLabel = "Request gas-status review";
+            primaryCtaLabel = "Send case details";
             primaryCtaIntent = "filing_help";
             scenarioKey = "needs_gas_split";
             nextActionChecklist = List.of(

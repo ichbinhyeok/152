@@ -60,7 +60,7 @@ class PublicIndexingSeoTests {
                 .andExpect(status().isOk())
                 .andExpect(header().doesNotExist("X-Robots-Tag"))
                 .andExpect(content().string(containsString("<link rel=\"canonical\" href=\"https://example.test/\">")))
-                .andExpect(content().string(containsString("LL152 Engine team")))
+                .andExpect(content().string(containsString("LL152 Guidance Desk")))
                 .andReturn()
                 .getResponse()
                 .getContentAsString();
@@ -89,6 +89,7 @@ class PublicIndexingSeoTests {
                 .andExpect(content().string(containsString("<loc>https://example.test/ll152-no-active-gas-service/</loc>")))
                 .andExpect(content().string(containsString("<loc>https://example.test/privacy-data-use/</loc>")))
                 .andExpect(content().string(containsString("<loc>https://example.test/response-policy/</loc>")))
+                .andExpect(content().string(containsString("<loc>https://example.test/terms-disclaimer/</loc>")))
                 .andExpect(content().string(not(containsString("/corrected-certification/"))))
                 .andExpect(content().string(not(containsString("/admin"))));
     }
@@ -98,7 +99,7 @@ class PublicIndexingSeoTests {
         String html = mockMvc.perform(get("/ll152-checker/"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(containsString("Current rule set")))
-                .andExpect(content().string(containsString("LL152 Engine team")))
+                .andExpect(content().string(containsString("LL152 Guidance Desk")))
                 .andReturn()
                 .getResponse()
                 .getContentAsString();
@@ -127,8 +128,8 @@ class PublicIndexingSeoTests {
         mockMvc.perform(get("/privacy-data-use/"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(containsString("How building details and contact data are handled")))
-                .andExpect(content().string(containsString("What the intake asks for")))
-                .andExpect(content().string(containsString("Request priority review")));
+                .andExpect(content().string(containsString("What the intake stores")))
+                .andExpect(content().string(containsString("Send case details")));
     }
 
     @Test

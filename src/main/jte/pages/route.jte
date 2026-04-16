@@ -32,29 +32,29 @@
         <script type="application/ld+json">
             $unsafe{webPageStructuredData}
         </script>
-        <section class="directive-hero">
+        <section class="directive-hero ${"trust".equals(page.family()) ? "directive-hero--trust" : ""}" style="--hero-image:url('${page.imageUrl()}');">
             <div class="directive-hero__meta">
                 <div>
                     <p class="eyebrow">${page.eyebrow()}</p>
                     <div class="breadcrumb-row">
-                        <a href="/">Root</a>
+                        <a href="/">Home</a>
                         <span>/</span>
-                        <a href="/ll152-checker/">Verdict engine</a>
+                        <a href="/ll152-checker/">Checker</a>
                         <span>/</span>
                         <span>${page.id()}</span>
                     </div>
                 </div>
                 <div class="document-meta">
-                    <span>Document ID</span>
+                    <span>Route ID</span>
                     <strong>${page.id()}</strong>
-                    <span>Phase: ${page.phase() == null || page.phase().isBlank() ? "route" : page.phase()}</span>
+                    <span>Source check ${teamSourceCheckedAt.isBlank() ? "current" : teamSourceCheckedAt}</span>
                 </div>
             </div>
             <h1>${page.title()}</h1>
             <p class="directive-hero__summary">${page.hero()}</p>
         </section>
 
-        <section class="directive-layout">
+        <section class="directive-layout ${"trust".equals(page.family()) ? "directive-layout--trust" : ""}">
             <div class="directive-canvas">
                 @if(!page.sections().isEmpty())
                     <div class="section-matrix">
@@ -96,7 +96,7 @@
                 @if(!routeEnhancement.escalationTriggers().isEmpty())
                     <article class="protocol-summary">
                         <div class="panel-heading">
-                            <p class="mono-label">Review boundary</p>
+                            <p class="mono-label">Decision boundary</p>
                             <h2>Escalate before you continue when</h2>
                         </div>
                         <ul class="bullet-list">
@@ -131,24 +131,24 @@
             </div>
 
             <aside class="action-column">
-                <article class="action-panel action-panel--dark">
-                    <p class="mono-label mono-label--light">Action directive</p>
-                    <h2>Confirm the branch before you escalate.</h2>
+                <article class="action-panel ${"trust".equals(page.family()) ? "action-panel--quiet" : "action-panel--dark"}">
+                    <p class="mono-label ${"trust".equals(page.family()) ? "" : "mono-label--light"}">${"trust".equals(page.family()) ? "Using this page" : "When to contact now"}</p>
+                    <h2>${"trust".equals(page.family()) ? "Read the boundary first, then share only what changes the route." : "Contact now when one missing fact still changes the filing path."}</h2>
                     <p>${page.summary()}</p>
-                    <p>Move yourself when the branch is already explicit. Escalate when a single missing fact can still change the route.</p>
-                    <p>The team uses this review to confirm the likely route, identify the missing filing fact, and decide whether the case should move to an inspection or certification partner.</p>
-                    <p>Team source check: ${teamSourceCheckedAt}. Current page basis: ${teamSourceCount} official references.</p>
-                    <button class="button button--inverse" type="button" data-lead-open data-route-id="${page.id()}" data-route-path="${page.path()}" data-intent="${page.ctaIntent()}">${page.ctaLabel()}</button>
-                    <a class="ghost-link ghost-link--light" href="/ll152-checker/">Run the checker first</a>
+                    <p>${"trust".equals(page.family()) ? "These trust pages explain who operates the site, how the intake works, and what should stay out of the form." : "Send the case details when the blocker is still a routing question, a due-window question, or a gas-status question."}</p>
+                    <p>${"trust".equals(page.family()) ? "Contact: shinhyeok22@gmail.com" : "The intake keeps the route, blocker, and building reference together so the next reply starts from the same case context."}</p>
+                    <p>Source check: ${teamSourceCheckedAt}. Current page basis: ${teamSourceCount} official references.</p>
+                    <button class="button ${"trust".equals(page.family()) ? "" : "button--inverse"}" type="button" data-lead-open data-route-id="${page.id()}" data-route-path="${page.path()}" data-intent="${page.ctaIntent()}">Send case details</button>
+                    <a class="ghost-link ${"trust".equals(page.family()) ? "" : "ghost-link--light"}" href="/ll152-checker/">Run the checker first</a>
                 </article>
 
                 <article class="action-panel">
-                    <p class="mono-label">Priority review</p>
-                    <h2>What the team checks before partner handoff</h2>
+                    <p class="mono-label">${"trust".equals(page.family()) ? "Questions about the intake" : "What to send if you contact now"}</p>
+                    <h2>${"trust".equals(page.family()) ? "Keep the intake narrow and specific." : "Share the facts that still change the next step."}</h2>
                     <ul class="checklist-list">
                         <li>The likely LL152 branch still controlling this building.</li>
                         <li>The one missing document or fact still blocking the next step.</li>
-                        <li>Whether the case should stay self-serve or move to filing, inspection, or certification help.</li>
+                        <li>A building reference, gas status, or due-window clue when you have it.</li>
                     </ul>
                 </article>
 
@@ -167,7 +167,7 @@
                 @endif
 
                 <figure class="reference-figure">
-                    <img src="https://images.unsplash.com/photo-1762146828422-50a8bd416d3c?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=1600" alt="Architectural blueprints spread across a drafting table.">
+                    <img src="${page.imageUrl()}" alt="${page.imageAlt()}">
                 </figure>
             </aside>
         </section>

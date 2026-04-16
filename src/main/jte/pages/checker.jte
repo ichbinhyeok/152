@@ -33,7 +33,7 @@
             <article class="ledger-panel">
                 <div class="ledger-panel__header">
                     <div>
-                        <p class="mono-label">Input manifest</p>
+                        <p class="mono-label">Building details</p>
                         <h1>${page.title()}</h1>
                     </div>
                     <p class="ledger-panel__intro">${page.hero()}</p>
@@ -41,27 +41,27 @@
 
                 <form class="checker-form" id="checkerForm">
                     <label class="ledger-field">
-                        <span>Asset.identity</span>
+                        <span>Building address</span>
                         <input type="text" name="address" id="checkerAddress" placeholder="Building address">
                     </label>
                     <div class="checker-form__pair">
                         <label class="ledger-field">
-                            <span>Registry.bin</span>
+                            <span>BIN</span>
                             <input type="text" name="bin" placeholder="Optional BIN">
                         </label>
                         <label class="ledger-field">
-                            <span>Registry.bbl</span>
+                            <span>BBL</span>
                             <input type="text" name="bbl" placeholder="Optional BBL">
                         </label>
                     </div>
-                    <p class="form-note">Address, BIN, and BBL identify the building, but the verdict will not run until you add at least one routing detail: district, building profile, DOF class, or gas status.</p>
+                    <p class="form-note">Address, BIN, and BBL help identify the building, but the checker still needs at least one routing detail: district, property class, building type, or gas status.</p>
                     <div class="checker-form__pair">
                         <label class="ledger-field">
-                            <span>Asset.classification</span>
+                            <span>Property class</span>
                             <input type="text" name="dofClass" placeholder="Optional A6, C1, M3">
                         </label>
                         <label class="ledger-field">
-                            <span>Asset.profile</span>
+                            <span>Building type</span>
                             <select name="buildingType">
                                 @for(var profile : profiles)
                                     <option value="${profile.value()}">${profile.label()}</option>
@@ -71,11 +71,11 @@
                     </div>
                     <div class="checker-form__pair checker-form__pair--triple">
                         <label class="ledger-field">
-                            <span>District.group</span>
+                            <span>Community district</span>
                             <input type="number" name="communityDistrict" min="1" max="18" placeholder="Optional district">
                         </label>
                         <label class="ledger-field">
-                            <span>Gas.piping</span>
+                            <span>Gas piping</span>
                             <select name="gasPiping">
                                 <option value="">I need a general check</option>
                                 <option value="true">Gas piping is present</option>
@@ -83,7 +83,7 @@
                             </select>
                         </label>
                         <label class="ledger-field">
-                            <span>Gas.service</span>
+                            <span>Active gas service</span>
                             <select name="activeGasService">
                                 <option value="">Set gas piping to present first</option>
                                 <option value="true">Active gas service</option>
@@ -92,20 +92,20 @@
                         </label>
                     </div>
                     <div class="checker-form__actions">
-                        <button class="button" type="submit">Run verdict</button>
-                        <p class="form-status" id="checkerStatus" aria-live="polite">Awaiting execution.</p>
+                        <button class="button" type="submit">Run checker</button>
+                        <p class="form-status" id="checkerStatus" aria-live="polite">Ready when you are.</p>
                     </div>
                 </form>
 
                 <div class="integrity-panel">
-                    <p class="mono-label">Input scope</p>
+                    <p class="mono-label">What changes the answer</p>
                     <p>Use only the fields that change coverage, due-cycle timing, or the no-gas versus no-active-service branch.</p>
-                    <p class="result-note">Team source check: ${teamSourceCheckedAt}. Current rule set: ${teamSourceCount} official references.</p>
+                    <p class="result-note">Source check: ${teamSourceCheckedAt}. Current rule set: ${teamSourceCount} official references.</p>
                 </div>
 
                 <div class="integrity-ledger">
-                    <p class="mono-label">Data integrity note</p>
-                    <p>Coverage, district group, and gas status drive the primary branch. Missing any of the three should lower certainty before it lowers trust.</p>
+                    <p class="mono-label">Why certainty changes</p>
+                    <p>Coverage, district, and gas status drive the primary branch. Missing any of the three should lower certainty before it lowers trust.</p>
                     <ul class="checklist-list">
                         <li>Confirm building identity before escalation.</li>
                         <li>Separate gas piping from active gas service.</li>
@@ -117,8 +117,8 @@
             <aside class="checker-result" id="checkerResult">
                 <div class="verdict-header">
                     <div>
-                        <p class="mono-label">Compliance state</p>
-                        <h2>VERDICT</h2>
+                        <p class="mono-label">Likely next step</p>
+                        <h2>Route result</h2>
                     </div>
                     <div class="confidence-readout">
                         <span id="resultConfidence">Awaiting input</span>
@@ -128,20 +128,20 @@
 
                 <div class="decision-ribbon">
                     <div>
-                        <p class="mono-label mono-label--light">Action directive</p>
+                        <p class="mono-label mono-label--light">What to do next</p>
                         <h3 id="resultNextStep">Run the checker to render the next action.</h3>
                     </div>
-                    <span class="decision-ribbon__ref">LL152 decision</span>
+                    <span class="decision-ribbon__ref">LL152 route</span>
                 </div>
 
                 <div class="verdict-grid">
                     <article class="verdict-block">
-                        <p class="mono-label">Coverage state</p>
+                        <p class="mono-label">Coverage</p>
                         <h3 id="resultCoverage">Verdict pending</h3>
                         <p id="resultDueCycle">Cycle timing appears here after the property ledger is validated.</p>
                     </article>
                     <article class="verdict-block">
-                        <p class="mono-label">Rationale & statutory basis</p>
+                        <p class="mono-label">Why this answer</p>
                         <p id="resultSummary">Use the ledger on the left to calculate the likely next filing step.</p>
                         <ul class="rationale-list" id="resultRationale">
                             <li>Coverage logic renders after input validation.</li>
@@ -153,7 +153,7 @@
 
                 <div class="verdict-actions">
                     <a class="button" id="resultRouteLink" href="/filing-next-step/">Review the recommended route</a>
-                    <button class="button button--secondary" id="resultLeadButton" type="button" data-lead-open data-route-id="${page.id()}" data-route-path="${page.path()}" data-intent="filing_help">Request priority review</button>
+                    <button class="button button--secondary" id="resultLeadButton" type="button" data-lead-open data-route-id="${page.id()}" data-route-path="${page.path()}" data-intent="filing_help">Send case details</button>
                 </div>
 
                 <div class="verdict-grid verdict-grid--secondary">
@@ -170,8 +170,8 @@
                         <p class="result-note" id="resultConfidenceReason">Add the core branch inputs to see which fact still changes the answer.</p>
                     </article>
                     <article class="verdict-block">
-                        <p class="mono-label">Escalate before filing when</p>
-                        <p class="result-note" id="resultReviewBoundary">Use review when a single unresolved fact can still flip the route.</p>
+                        <p class="mono-label">Pause before filing when</p>
+                        <p class="result-note" id="resultReviewBoundary">Pause when a single unresolved fact can still flip the route.</p>
                     </article>
                     <article class="verdict-block">
                         <p class="mono-label">Official source anchors</p>

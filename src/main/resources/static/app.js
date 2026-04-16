@@ -41,9 +41,9 @@ const backgroundElements = leadDrawer
     ? Array.from(document.body.children).filter((element) => element !== leadDrawer)
     : [];
 const defaultLeadCopy = {
-    title: "Request priority review",
-    summary: "Use this when the blocker is already specific and you want the team to confirm the likely route before the case moves to filing, inspection, or certification help.",
-    button: "Request priority review"
+    title: "Send case details",
+    summary: "Use this when one missing fact still changes the filing path, due window, or gas-service branch. Sending the case now keeps the building facts, route, and blocker together before the wrong filing step creates delay.",
+    button: "Send case details"
 };
 let lastFocusedElement = null;
 
@@ -136,9 +136,9 @@ function focusLeadEntry() {
 function leadSummaryForIntent(intent) {
     switch (intent) {
         case "certification_help":
-            return "Use this when the building may be on the no-gas-piping path and you want the team to confirm the certification route before it moves to a certification partner.";
+            return "Use this when the building may be on the no-gas-piping path and the remaining question is whether that certification route truly applies.";
         case "lmp_help":
-            return "Use this when the building likely needs inspection and you want the team to confirm the branch, timing, and next filing step before inspection scheduling or partner handoff.";
+            return "Use this when the building likely needs inspection and the remaining question is the branch, timing, or next filing step before scheduling moves forward.";
         default:
             return defaultLeadCopy.summary;
     }
@@ -309,7 +309,7 @@ leadForm?.addEventListener("submit", async (event) => {
             throw new Error(await responseMessage(response, "Lead capture failed."));
         }
 
-        leadFormStatus.textContent = "Request sent. The team can now confirm the route and next filing step.";
+        leadFormStatus.textContent = "Case details sent. The route, blocker, and contact details are now captured together.";
         leadForm.reset();
         window.setTimeout(() => {
             closeLeadDrawer();
@@ -325,7 +325,7 @@ gasPipingField?.addEventListener("change", syncActiveGasServiceField);
 
 checkerForm?.addEventListener("submit", async (event) => {
     event.preventDefault();
-    checkerStatus.textContent = "Running verdict...";
+        checkerStatus.textContent = "Running checker...";
 
     const formData = new FormData(checkerForm);
     const buildingType = normalizeValue(formData.get("buildingType"));
@@ -365,7 +365,7 @@ checkerForm?.addEventListener("submit", async (event) => {
         }
 
         const result = await response.json();
-        checkerStatus.textContent = "Likely verdict ready.";
+        checkerStatus.textContent = "Likely route ready.";
         checkerResult.hidden = false;
         resultCoverage.textContent = result.coverageVerdict;
         resultDueCycle.textContent = result.dueCycleVerdict;
@@ -376,7 +376,7 @@ checkerForm?.addEventListener("submit", async (event) => {
         resultReviewBoundary.textContent = result.reviewBoundary;
         resultSourceNote.textContent = result.sourceNote;
         resultRouteLink.href = result.recommendedRoute;
-        resultRouteLink.textContent = "Review the recommended route";
+        resultRouteLink.textContent = "Open the recommended route";
         resultLeadButton.textContent = result.primaryCtaLabel;
         resultLeadButton.dataset.intent = result.primaryCtaIntent;
         resultLeadButton.dataset.routePath = result.recommendedRoute;

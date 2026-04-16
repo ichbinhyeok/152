@@ -32,49 +32,17 @@
     <a class="skip-link" href="#mainContent">Skip to content</a>
     <header class="command-header">
         <div class="command-header__brand">
-            <a class="brandmark" href="/">LL152.ENGINE</a>
-            <p class="brandmark__meta">NYC compliance decision ledger</p>
+            <a class="brandmark" href="/">LL152 Guidance Desk</a>
+            <p class="brandmark__meta">Source-checked NYC filing guidance</p>
         </div>
         <nav class="command-nav" aria-label="Primary">
             <a href="/" class="command-nav__link ${currentPath.equals("/") ? "is-active" : ""}">Home</a>
             <a href="/ll152-checker/" class="command-nav__link ${currentPath.equals("/ll152-checker/") ? "is-active" : ""}">Checker</a>
-            <a href="/filing-next-step/" class="command-nav__link ${!currentPath.equals("/") && !currentPath.equals("/ll152-checker/") && !currentPath.equals("/admin") ? "is-active" : ""}">Routes</a>
+            <a href="/filing-next-step/" class="command-nav__link ${!currentPath.equals("/") && !currentPath.equals("/ll152-checker/") && !currentPath.equals("/admin") && !currentPath.equals("/about/") ? "is-active" : ""}">Filing steps</a>
+            <a href="/about/" class="command-nav__link ${currentPath.equals("/about/") ? "is-active" : ""}">Trust</a>
         </nav>
-        <div class="command-header__tools" aria-hidden="true">
-            <span class="command-badge">Guide live</span>
-            <span class="material-symbols-outlined">account_tree</span>
-            <span class="material-symbols-outlined">sync</span>
-            <span class="material-symbols-outlined">settings</span>
-        </div>
+        <button class="button button--header" type="button" data-lead-open data-route-id="site-header" data-route-path="${currentPath}" data-intent="filing_help">Send case details</button>
     </header>
-
-    <aside class="command-rail">
-        <div class="command-rail__head">
-            <p class="command-rail__label">Sovereign</p>
-            <p class="command-rail__version">v.2.6.0 stable</p>
-        </div>
-        <nav class="command-rail__nav" aria-label="Workspace">
-            <a href="/" class="command-rail__link ${currentPath.equals("/") ? "is-active" : ""}">
-                <span class="material-symbols-outlined">space_dashboard</span>
-                <span>Home</span>
-            </a>
-            <a href="/ll152-checker/" class="command-rail__link ${currentPath.equals("/ll152-checker/") ? "is-active" : ""}">
-                <span class="material-symbols-outlined">gavel</span>
-                <span>Run checker</span>
-            </a>
-            <a href="/filing-next-step/" class="command-rail__link ${!currentPath.equals("/") && !currentPath.equals("/ll152-checker/") && !currentPath.equals("/admin") ? "is-active" : ""}">
-                <span class="material-symbols-outlined">account_tree</span>
-                <span>Route guides</span>
-            </a>
-        </nav>
-        <div class="command-rail__footer">
-            <a class="button button--rail" href="/ll152-checker/">Run checker</a>
-            <div class="command-rail__status">
-                <span>Status: ready</span>
-                <span>Registry: synced</span>
-            </div>
-        </div>
-    </aside>
 
     <main class="app-main" id="mainContent" tabindex="-1">
         ${content}
@@ -83,9 +51,9 @@
     @if(showTeamTrust)
         <section class="team-trust">
             <div class="team-trust__intro">
-                <p class="mono-label">Guidance team</p>
-                <h2>LL152 Engine team</h2>
-                <p>The team maintains this guidance surface as a source-checked decision aid for NYC Local Law 152 routing. It is built to help users narrow the next step before they act in DOB NOW.</p>
+                <p class="mono-label">Operator</p>
+                <h2>LL152 Guidance Desk</h2>
+                <p>A virtual team maintaining a narrow, source-checked routing surface for NYC Local Law 152. Use it to narrow the next filing step before you act in DOB NOW.</p>
             </div>
             <div class="team-trust__grid">
                 <div class="team-trust__item">
@@ -93,25 +61,28 @@
                     <strong>${teamSourceCheckedAt.isBlank() ? "Current cycle" : teamSourceCheckedAt}</strong>
                 </div>
                 <div class="team-trust__item">
-                    <span class="mono-label">Official source set</span>
-                    <strong>${teamSourceCount} linked references</strong>
+                    <span class="mono-label">Contact</span>
+                    <strong>shinhyeok22@gmail.com</strong>
                 </div>
                 <div class="team-trust__item">
                     <span class="mono-label">Boundary</span>
-                    <strong>Routing aid, not legal advice or DOB filing sign-off</strong>
+                    <strong>Routing aid, not legal advice, not DOB, not filing sign-off</strong>
                 </div>
             </div>
         </section>
     @endif
 
     <footer class="app-footer">
-        <p>Likely verdict first. Verify every filing against current DOB guidance.</p>
+        <p>Likely verdict first. Verify every filing against current DOB guidance before you submit anything.</p>
         <div class="footer-links">
+            <a href="/about/">About</a>
             <a href="/methodology/">Methodology</a>
             <a href="/privacy-data-use/">Privacy</a>
             <a href="/response-policy/">Response policy</a>
+            <a href="/terms-disclaimer/">Terms and disclosure</a>
             <a href="/not-government-affiliated/">Not government-affiliated</a>
             <a href="/contact/">Contact</a>
+            <a href="mailto:shinhyeok22@gmail.com">shinhyeok22@gmail.com</a>
         </div>
     </footer>
 
@@ -119,16 +90,16 @@
         <div class="lead-drawer__panel" tabindex="-1">
             <div class="lead-drawer__header">
                 <div>
-                    <p class="mono-label">Review intake</p>
-                    <h2 id="leadDrawerTitle">Request priority review</h2>
+                    <p class="mono-label">Case intake</p>
+                    <h2 id="leadDrawerTitle">Send case details</h2>
                 </div>
                 <button class="ghost-button" type="button" id="leadCloseButton" aria-label="Close lead form">Close</button>
             </div>
-            <p class="lead-drawer__summary" id="leadDrawerSummary">Use this when the blocker is already specific and you want the team to confirm the likely route before the case moves to filing, inspection, or certification help.</p>
+            <p class="lead-drawer__summary" id="leadDrawerSummary">Use this when one missing fact still changes the filing path, due window, or gas-service branch. Sending the case now keeps the building facts, route, and blocker together before the wrong filing step creates delay.</p>
             <ul class="checklist-list lead-drawer__checklist">
-                <li>The team checks the likely branch and the missing filing fact first.</li>
-                <li>Cases that still need manual help can be routed to the right partner after review.</li>
-                <li>Do not send DOB passwords, payment data, or emergency gas reports through this form.</li>
+                <li>Share only the building facts that still change the next step.</li>
+                <li>The intake stores the route, blocker, and contact details together so the next reply can start from the same case context.</li>
+                <li>For gas odor or unsafe conditions, use 911, your gas utility emergency line, or DOB emergency channels instead.</li>
             </ul>
             <form class="lead-form" id="leadForm">
                 <input type="hidden" name="routeId" id="leadRouteId">
@@ -153,12 +124,13 @@
                     <input type="text" name="buildingAddress" id="leadBuildingAddress" required>
                 </label>
                 <label>
-                    What still needs review?
+                    What still blocks the next step?
                     <textarea name="message" rows="4"></textarea>
                 </label>
+                <p class="lead-form__consent">By sending this intake, you agree to the <a href="/privacy-data-use/">privacy notice</a>, <a href="/response-policy/">response policy</a>, and <a href="/terms-disclaimer/">terms and disclosure</a>. For corrections or deletion requests, email <a href="mailto:shinhyeok22@gmail.com">shinhyeok22@gmail.com</a>.</p>
 
                 <div class="lead-form__actions">
-                    <button class="button" type="submit" id="leadSubmitButton">Request priority review</button>
+                    <button class="button" type="submit" id="leadSubmitButton">Send case details</button>
                     <p class="form-status" id="leadFormStatus" aria-live="polite"></p>
                 </div>
             </form>

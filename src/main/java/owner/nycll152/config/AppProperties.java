@@ -13,7 +13,7 @@ public class AppProperties {
     private static final String DEFAULT_ADMIN_PASSWORD = "change-me-before-deploy";
 
     private URI baseUrl = URI.create("http://localhost:8080");
-    private Path dataRoot = Path.of("data");
+    private Path dataRoot;
     private Path storageRoot = Path.of("storage");
     private boolean publicIndexingEnabled;
     private final Admin admin = new Admin();
@@ -57,6 +57,10 @@ public class AppProperties {
         this.dataRoot = dataRoot;
     }
 
+    public boolean hasExternalDataRoot() {
+        return dataRoot != null;
+    }
+
     public Path getStorageRoot() {
         return storageRoot;
     }
@@ -82,27 +86,37 @@ public class AppProperties {
     }
 
     public Path routeInventoryPath() {
+        requireExternalDataRoot();
         return dataRoot.resolve(Path.of("derived", "routes.json"));
     }
 
     public Path checkerRulesPath() {
+        requireExternalDataRoot();
         return dataRoot.resolve(Path.of("normalized", "ll152", "checker-rules.json"));
     }
 
     public Path sourceDirectoryPath() {
+        requireExternalDataRoot();
         return dataRoot.resolve(Path.of("normalized", "sources"));
     }
 
     public Path routeStatusPath() {
-        return dataRoot.resolve(Path.of("ops", "route-status.csv"));
+        return opsRoot().resolve("route-status.csv");
     }
 
     public Path promotionReviewPath() {
-        return dataRoot.resolve(Path.of("ops", "promotion-review.json"));
+        return opsRoot().resolve("promotion-review.json");
     }
 
     public Path adminSnapshotPath() {
-        return dataRoot.resolve(Path.of("ops", "admin-metrics-snapshot.json"));
+        return opsRoot().resolve("admin-metrics-snapshot.json");
+    }
+
+    public Path opsRoot() {
+        if (hasExternalDataRoot()) {
+            return dataRoot.resolve("ops");
+        }
+        return storageRoot.resolve("ops");
     }
 
     public Path leadsDirectory() {
@@ -119,6 +133,12 @@ public class AppProperties {
 
     public String canonicalUrl(String path) {
         return baseUrl.resolve(path).toString();
+    }
+
+    private void requireExternalDataRoot() {
+        if (!hasExternalDataRoot()) {
+            throw new IllegalStateException("app.data-root is not configured for external file access.");
+        }
     }
 
     public static class Admin {
