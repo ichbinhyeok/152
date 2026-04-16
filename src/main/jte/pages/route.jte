@@ -41,13 +41,14 @@
                         <span>/</span>
                         <a href="/ll152-checker/">Checker</a>
                         <span>/</span>
-                        <span>${page.id()}</span>
+                        <span>${page.title()}</span>
                     </div>
                 </div>
                 <div class="document-meta">
-                    <span>Route ID</span>
-                    <strong>${page.id()}</strong>
-                    <span>Source check ${teamSourceCheckedAt.isBlank() ? "current" : teamSourceCheckedAt}</span>
+                    <span>Official references</span>
+                    <strong>${teamSourceCount}</strong>
+                    <span>Last source check</span>
+                    <strong>${teamSourceCheckedAt.isBlank() ? "current" : teamSourceCheckedAt}</strong>
                 </div>
             </div>
             <h1>${page.title()}</h1>
@@ -61,7 +62,7 @@
                         @for(var section : page.sections())
                             <article class="protocol-block">
                                 <div class="protocol-block__header">
-                                    <p class="mono-label">Protocol section</p>
+                                    <p class="mono-label">What this page covers</p>
                                     <h2>${section.title()}</h2>
                                 </div>
                                 @for(var paragraph : section.paragraphs())
@@ -110,21 +111,21 @@
                 <article class="protocol-summary">
                     <div class="panel-heading">
                         <p class="mono-label">Decision basis</p>
-                        <h2>Why this route exists</h2>
+                        <h2>Why this page matters</h2>
                     </div>
                     <p>${page.summary()}</p>
                     <div class="protocol-summary__grid">
                         <div>
-                            <span class="mono-label">Route ID</span>
-                            <strong>${page.id()}</strong>
+                            <span class="mono-label">Official references</span>
+                            <strong>${teamSourceCount} city sources</strong>
                         </div>
                         <div>
-                            <span class="mono-label">Family</span>
-                            <strong>${page.family()}</strong>
+                            <span class="mono-label">Last source check</span>
+                            <strong>${teamSourceCheckedAt.isBlank() ? "current" : teamSourceCheckedAt}</strong>
                         </div>
                         <div>
-                            <span class="mono-label">Phase</span>
-                            <strong>${page.phase() == null || page.phase().isBlank() ? "route" : page.phase()}</strong>
+                            <span class="mono-label">Best used when</span>
+                            <strong>${"trust".equals(page.family()) ? "You need policy, privacy, or contact boundaries." : "The next filing step is still not obvious."}</strong>
                         </div>
                     </div>
                 </article>
@@ -133,20 +134,20 @@
             <aside class="action-column">
                 <article class="action-panel ${"trust".equals(page.family()) ? "action-panel--quiet" : "action-panel--dark"}">
                     <p class="mono-label ${"trust".equals(page.family()) ? "" : "mono-label--light"}">${"trust".equals(page.family()) ? "Using this page" : "When to contact now"}</p>
-                    <h2>${"trust".equals(page.family()) ? "Read the boundary first, then share only what changes the route." : "Contact now when one missing fact still changes the filing path."}</h2>
+                    <h2>${"trust".equals(page.family()) ? "Read the boundary first, then share only what changes the answer." : "Contact now when one missing fact still changes the next step."}</h2>
                     <p>${page.summary()}</p>
-                    <p>${"trust".equals(page.family()) ? "These trust pages explain who operates the site, how the intake works, and what should stay out of the form." : "Send the case details when the blocker is still a routing question, a due-window question, or a gas-status question."}</p>
-                    <p>${"trust".equals(page.family()) ? "Contact: shinhyeok22@gmail.com" : "The intake keeps the route, blocker, and building reference together so the next reply starts from the same case context."}</p>
-                    <p>Source check: ${teamSourceCheckedAt}. Current page basis: ${teamSourceCount} official references.</p>
+                    <p>${"trust".equals(page.family()) ? "These pages explain who runs the site, how the intake works, and what should stay out of it." : "Send case details when the question is still the filing step, due window, or gas status."}</p>
+                    <p>${"trust".equals(page.family()) ? "Contact: shinhyeok22@gmail.com" : "The intake keeps the building reference and unresolved question together so the next reply starts in the right place."}</p>
+                    <p>Official references checked: ${teamSourceCheckedAt.isBlank() ? "current" : teamSourceCheckedAt}. ${teamSourceCount} city sources behind this page.</p>
                     <button class="button ${"trust".equals(page.family()) ? "" : "button--inverse"}" type="button" data-lead-open data-route-id="${page.id()}" data-route-path="${page.path()}" data-intent="${page.ctaIntent()}">Send case details</button>
                     <a class="ghost-link ${"trust".equals(page.family()) ? "" : "ghost-link--light"}" href="/ll152-checker/">Run the checker first</a>
                 </article>
 
                 <article class="action-panel">
                     <p class="mono-label">${"trust".equals(page.family()) ? "Questions about the intake" : "What to send if you contact now"}</p>
-                    <h2>${"trust".equals(page.family()) ? "Keep the intake narrow and specific." : "Share the facts that still change the next step."}</h2>
+                    <h2>${"trust".equals(page.family()) ? "Keep the intake narrow and specific." : "Share the facts that still change the answer."}</h2>
                     <ul class="checklist-list">
-                        <li>The likely LL152 branch still controlling this building.</li>
+                        <li>The main LL152 question still controlling this building.</li>
                         <li>The one missing document or fact still blocking the next step.</li>
                         <li>A building reference, gas status, or due-window clue when you have it.</li>
                     </ul>
@@ -154,7 +155,7 @@
 
                 @if(!officialSources.isEmpty())
                     <article class="action-panel">
-                        <p class="mono-label">Official source anchors</p>
+                        <p class="mono-label">Official city references</p>
                         <ul class="source-list">
                             @for(var source : officialSources)
                                 <li>
@@ -176,7 +177,7 @@
             <section class="register-panel register-panel--wide">
                 <div class="section-bar">
                     <div>
-                        <p class="mono-label">Related routes</p>
+                        <p class="mono-label">Related guides</p>
                         <h2>Keep moving toward the actual filing step.</h2>
                     </div>
                 </div>
@@ -184,7 +185,7 @@
                     @for(var route : relatedRoutes)
                         <article class="ledger-card">
                             <div class="ledger-card__meta">
-                                <span class="mono-label">${route.id()}</span>
+                                <span class="mono-label">Guide</span>
                                 <span class="eyebrow">${route.eyebrow()}</span>
                             </div>
                             <h3><a href="${route.path()}">${route.title()}</a></h3>

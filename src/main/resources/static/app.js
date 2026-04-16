@@ -42,7 +42,7 @@ const backgroundElements = leadDrawer
     : [];
 const defaultLeadCopy = {
     title: "Send case details",
-    summary: "Use this when one missing fact still changes the filing path, due window, or gas-service branch. Sending the case now keeps the building facts, route, and blocker together before the wrong filing step creates delay.",
+    summary: "Use this when one missing fact still changes the filing path, due window, or gas-service branch. Sending the case now keeps the building facts, open question, and contact details together before the wrong filing step creates delay.",
     button: "Send case details"
 };
 let lastFocusedElement = null;
@@ -136,7 +136,7 @@ function focusLeadEntry() {
 function leadSummaryForIntent(intent) {
     switch (intent) {
         case "certification_help":
-            return "Use this when the building may be on the no-gas-piping path and the remaining question is whether that certification route truly applies.";
+            return "Use this when the building may be on the no-gas-piping path and the remaining question is whether that certification page truly applies.";
         case "lmp_help":
             return "Use this when the building likely needs inspection and the remaining question is the branch, timing, or next filing step before scheduling moves forward.";
         default:
@@ -309,7 +309,7 @@ leadForm?.addEventListener("submit", async (event) => {
             throw new Error(await responseMessage(response, "Lead capture failed."));
         }
 
-        leadFormStatus.textContent = "Case details sent. The route, blocker, and contact details are now captured together.";
+        leadFormStatus.textContent = "Case details sent. The building details, open question, and contact info are now captured together.";
         leadForm.reset();
         window.setTimeout(() => {
             closeLeadDrawer();
@@ -365,7 +365,7 @@ checkerForm?.addEventListener("submit", async (event) => {
         }
 
         const result = await response.json();
-        checkerStatus.textContent = "Likely route ready.";
+        checkerStatus.textContent = "Likely answer ready.";
         checkerResult.hidden = false;
         resultCoverage.textContent = result.coverageVerdict;
         resultDueCycle.textContent = result.dueCycleVerdict;
@@ -376,7 +376,7 @@ checkerForm?.addEventListener("submit", async (event) => {
         resultReviewBoundary.textContent = result.reviewBoundary;
         resultSourceNote.textContent = result.sourceNote;
         resultRouteLink.href = result.recommendedRoute;
-        resultRouteLink.textContent = "Open the recommended route";
+        resultRouteLink.textContent = "Open the recommended guide";
         resultLeadButton.textContent = result.primaryCtaLabel;
         resultLeadButton.dataset.intent = result.primaryCtaIntent;
         resultLeadButton.dataset.routePath = result.recommendedRoute;

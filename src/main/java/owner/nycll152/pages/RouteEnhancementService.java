@@ -24,19 +24,19 @@ public class RouteEnhancementService {
                 new HomeBlockerCard(
                         "Gas-status split",
                         "Is this no gas piping or no active gas service?",
-                        "Use the route that prevents the most common LL152 filing mistake before you open DOB NOW.",
+                        "Use the comparison page that prevents the most common LL152 filing mistake before you open DOB NOW.",
                         "/no-gas-vs-no-active-gas-service/"
                 ),
                 new HomeBlockerCard(
                         "Penalty or waiver",
                         "Can this LL152 penalty be fixed, extended, or waived?",
-                        "Use this when the original due window may already be behind the building and the exposure is penalty, challenge, or waiver.",
+                        "Use this when the original due window may already be behind the building and the open issue is penalty, challenge, or waiver.",
                         "/extension-penalty-waiver/"
                 ),
                 new HomeBlockerCard(
                         "After inspection",
                         "What happens after inspection, GPS1, or GPS2?",
-                        "Use the timing route after the inspection branch is already clear and the next issue is submission timing.",
+                        "Use this timing page after the inspection branch is already clear and the next issue is submission timing.",
                         "/after-inspection-gps1-gps2/"
                 )
         );
@@ -48,7 +48,7 @@ public class RouteEnhancementService {
                     List.of(
                             "Confirm the community district against the current Cycle 2 map before treating the timing as final.",
                             "Use the checker to lock the gas-status branch before you treat a district note as the filing answer.",
-                            "Treat district overlays as support context, not as the main decision surface."
+                            "Treat district overlays as support context, not as the main answer."
                     ),
                     List.of(
                             "The district looks right, but the gas-status branch is still unresolved.",
@@ -67,9 +67,9 @@ public class RouteEnhancementService {
                             "Escalate to LMP or filing help only after the branch is explicit."
                     ),
                     List.of(
-                            "The building may actually belong on the no-gas-piping or no-active-gas-service path.",
+                            "The building may actually belong on the no-gas-piping or no-active-gas-service page.",
                             "You still do not know who must act next: owner, utility, or LMP.",
-                            "The route seems covered, but the next filing step still changes when new facts appear."
+                            "The page seems directionally right, but the next filing step still changes when new facts appear."
                     ),
                     List.of("periodic-gas-piping-inspections", "ll152-faqs", "nyc311-gps2-certification")
             );
@@ -82,7 +82,7 @@ public class RouteEnhancementService {
                     List.of(
                             "You cannot prove whether piping still exists somewhere in the building.",
                             "Utility records, shutoff dates, or appliance-removal facts are incomplete.",
-                            "The path looks close, but you are still guessing between one-time certification and recurring-cycle documentation."
+                            "The answer looks close, but you are still guessing between one-time certification and recurring-cycle documentation."
                     ),
                     List.of("periodic-gas-piping-inspections", "ll152-follow-up-7", "rcny-103-10")
             );
@@ -90,7 +90,7 @@ public class RouteEnhancementService {
                     List.of(
                             "Confirm there is no gas piping anywhere in the building before using this one-time certification path.",
                             "Collect BIN or BBL plus the signer details for the utility company, registered design professional, or LMP who will certify the condition.",
-                            "Keep this route separate from no-active-gas-service cases, which stay recurring and cycle-sensitive."
+                            "Keep this page separate from no-active-gas-service cases, which stay recurring and cycle-sensitive."
                     ),
                     List.of(
                             "You are relying on a utility shutoff alone, but piping may still exist in the building.",
@@ -108,7 +108,7 @@ public class RouteEnhancementService {
                     List.of(
                             "You cannot prove whether gas piping still exists in the building.",
                             "Utility shutoff dates, owner statements, or appliance-removal facts are incomplete.",
-                            "The case may still need inspection, correction, or another filing route beyond the recurring no-active-service documentation."
+                            "The case may still need inspection, correction, or another filing page beyond the recurring no-active-service documentation."
                     ),
                     List.of("periodic-gas-piping-inspections", "ll152-follow-up-7", "rcny-103-10")
             );
@@ -121,7 +121,7 @@ public class RouteEnhancementService {
                     List.of(
                             "You still have not identified the missed filing or correction step behind the penalty notice.",
                             "The notice date, building type, or waiver basis is still uncertain.",
-                            "The penalty question is hiding an unresolved gas-status or route-selection problem."
+                            "The penalty question is hiding an unresolved gas-status or next-step problem."
                     ),
                     List.of("cycle-2-service-notice", "ll152-follow-up-7", "rcny-103-10")
             );

@@ -54,7 +54,7 @@
                             <input type="text" name="bbl" placeholder="Optional BBL">
                         </label>
                     </div>
-                    <p class="form-note">Address, BIN, and BBL help identify the building, but the checker still needs at least one routing detail: district, property class, building type, or gas status.</p>
+                    <p class="form-note">Address, BIN, and BBL help identify the building, but the checker still needs at least one filing detail: district, property class, building type, or gas status.</p>
                     <div class="checker-form__pair">
                         <label class="ledger-field">
                             <span>Property class</span>
@@ -100,7 +100,7 @@
                 <div class="integrity-panel">
                     <p class="mono-label">What changes the answer</p>
                     <p>Use only the fields that change coverage, due-cycle timing, or the no-gas versus no-active-service branch.</p>
-                    <p class="result-note">Source check: ${teamSourceCheckedAt}. Current rule set: ${teamSourceCount} official references.</p>
+                    <p class="result-note">Official references checked: ${teamSourceCheckedAt}. ${teamSourceCount} city sources behind this checker.</p>
                 </div>
 
                 <div class="integrity-ledger">
@@ -109,7 +109,7 @@
                     <ul class="checklist-list">
                         <li>Confirm building identity before escalation.</li>
                         <li>Separate gas piping from active gas service.</li>
-                        <li>Open the route only after the verdict stabilizes.</li>
+                        <li>Open the next guide only after the verdict stabilizes.</li>
                     </ul>
                 </div>
             </article>
@@ -118,7 +118,7 @@
                 <div class="verdict-header">
                     <div>
                         <p class="mono-label">Likely next step</p>
-                        <h2>Route result</h2>
+                        <h2>Likely answer</h2>
                     </div>
                     <div class="confidence-readout">
                         <span id="resultConfidence">Awaiting input</span>
@@ -131,28 +131,28 @@
                         <p class="mono-label mono-label--light">What to do next</p>
                         <h3 id="resultNextStep">Run the checker to render the next action.</h3>
                     </div>
-                    <span class="decision-ribbon__ref">LL152 route</span>
+                    <span class="decision-ribbon__ref">LL152 answer</span>
                 </div>
 
                 <div class="verdict-grid">
                     <article class="verdict-block">
                         <p class="mono-label">Coverage</p>
-                        <h3 id="resultCoverage">Route pending</h3>
+                        <h3 id="resultCoverage">Answer pending</h3>
                         <p id="resultDueCycle">Cycle timing appears here after the property ledger is validated.</p>
                     </article>
                     <article class="verdict-block">
                         <p class="mono-label">Why this answer</p>
                         <p id="resultSummary">Use the form on the left to narrow the likely next filing step.</p>
                         <ul class="rationale-list" id="resultRationale">
-                            <li>Coverage logic renders after input validation.</li>
-                            <li>Gas-status branching populates the directive ribbon.</li>
+                            <li>Coverage logic appears after input validation.</li>
+                            <li>Gas-status branching updates the next-step guidance.</li>
                         </ul>
-                        <p class="result-note" id="resultSourceNote">Official sources attach to the rendered route.</p>
+                        <p class="result-note" id="resultSourceNote">Official city references appear with the answer.</p>
                     </article>
                 </div>
 
                 <div class="verdict-actions">
-                    <a class="button" id="resultRouteLink" href="/filing-next-step/">Open the recommended route</a>
+                    <a class="button" id="resultRouteLink" href="/filing-next-step/">Open the recommended guide</a>
                     <button class="button button--secondary" id="resultLeadButton" type="button" data-lead-open data-route-id="${page.id()}" data-route-path="${page.path()}" data-intent="filing_help">Send case details</button>
                 </div>
 
@@ -161,7 +161,7 @@
                         <p class="mono-label">Do next</p>
                         <ul class="checklist-list" id="resultChecklist">
                             <li>Run the checker.</li>
-                            <li>Open the recommended route.</li>
+                            <li>Open the recommended guide.</li>
                             <li>Prepare the next filing inputs.</li>
                         </ul>
                     </article>
@@ -171,13 +171,13 @@
                     </article>
                     <article class="verdict-block">
                         <p class="mono-label">Pause before filing when</p>
-                        <p class="result-note" id="resultReviewBoundary">Pause when a single unresolved fact can still flip the route.</p>
+                        <p class="result-note" id="resultReviewBoundary">Pause when a single unresolved fact can still change the answer.</p>
                     </article>
                     <article class="verdict-block">
-                        <p class="mono-label">Official source anchors</p>
+                        <p class="mono-label">Official city references</p>
                         <ul class="source-list" id="resultSources">
                             <li>
-                                <span>Source anchors appear after the verdict is rendered.</span>
+                                <span>Official references appear after the verdict is rendered.</span>
                             </li>
                         </ul>
                     </article>
@@ -192,7 +192,7 @@
         <section class="register-panel register-panel--wide">
             <div class="section-bar">
                 <div>
-                    <p class="mono-label">Related routes</p>
+                    <p class="mono-label">Related guides</p>
                     <h2>Keep moving toward the actual filing step.</h2>
                 </div>
             </div>
@@ -200,7 +200,7 @@
                 @for(var route : relatedRoutes)
                     <article class="ledger-card">
                         <div class="ledger-card__meta">
-                            <span class="mono-label">${route.id()}</span>
+                            <span class="mono-label">Guide</span>
                             <span class="eyebrow">${route.eyebrow()}</span>
                         </div>
                         <h3><a href="${route.path()}">${route.title()}</a></h3>

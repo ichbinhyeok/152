@@ -36,7 +36,7 @@
                     <div class="home-hero__copy">
                         <p class="eyebrow">NYC Local Law 152</p>
                         <h1>Know the filing path before DOB turns into guesswork.</h1>
-                        <p class="home-hero__summary">Start with the building facts you already know. The checker narrows coverage, due timing, and the gas-status branch that changes the filing path before you spend time in DOB NOW.</p>
+                        <p class="home-hero__summary">Start with the building facts you already know. The checker narrows coverage, due timing, and the gas-status split before you spend time in DOB NOW.</p>
                         <div class="home-hero__actions">
                             <a class="button" href="/ll152-checker/">Run checker</a>
                             <button class="ghost-link ghost-link--light" type="button" data-lead-open data-route-id="home-hero" data-route-path="/" data-intent="filing_help">Send case details</button>
@@ -48,17 +48,17 @@
                             </div>
                             <div class="home-hero__note">
                                 <span>Gas-status split</span>
-                                <p>Separate no gas piping, no active gas service, and active service before you open the next route.</p>
+                                <p>Separate no gas piping, no active gas service, and active service before you move to the next filing step.</p>
                             </div>
                             <div class="home-hero__note">
                                 <span>Source check</span>
-                                <p>${teamSourceCheckedAt} with ${teamSourceCount} official anchors in the current routing set.</p>
+                                <p>Checked ${teamSourceCheckedAt} against ${teamSourceCount} official city references.</p>
                             </div>
                         </div>
                     </div>
                     <div class="home-hero__rail">
                         <p class="home-hero__rail-label">Built for owners, supers, and managers</p>
-                        <h2>Use this when the next move matters more than the law-school version.</h2>
+                        <h2>Use this when you need the practical answer, not a generic LL152 explainer.</h2>
                         <ul class="home-hero__rail-list">
                             <li>Covered or exempt?</li>
                             <li>Is the district timing still live or already behind the building?</li>
@@ -71,9 +71,9 @@
 
             <section class="home-blockers" id="pick-the-blocker">
                 <div class="home-section-heading">
-                    <p class="eyebrow">Start from the blocker</p>
+                    <p class="eyebrow">Start with the question</p>
                     <h2>Open the question that is actually slowing the filing.</h2>
-                    <p>The right route depends on the blocker, not on how much of the statute you can remember from last cycle.</p>
+                    <p>The right page depends on the real question, not on how much of the statute you can remember from last cycle.</p>
                 </div>
                 <div class="home-blocker-list">
                     @for(int i = 0; i < blockerCards.size(); i++)
@@ -92,9 +92,9 @@
             @if(!coreRoutes.isEmpty())
                 <section class="home-routes">
                     <div class="home-section-heading">
-                        <p class="eyebrow">Core routes</p>
-                        <h2>Open the route that matches the real filing question.</h2>
-                        <p>Keep the checker for uncertainty. When the blocker is explicit, go straight to the route that resolves it.</p>
+                        <p class="eyebrow">Core guides</p>
+                        <h2>Open the page that matches the real filing question.</h2>
+                        <p>Keep the checker for uncertainty. When the question is clear, go straight to the page that answers it.</p>
                     </div>
                     <div class="home-routes__layout">
                         <article class="home-route-feature">
@@ -106,11 +106,11 @@
                                 <h3>${coreRoutes.get(0).title()}</h3>
                                 <p>${coreRoutes.get(0).summary()}</p>
                                 <div class="home-route-feature__meta">
-                                    <span>Path active</span>
-                                    <span>Source check ${teamSourceCheckedAt}</span>
+                                    <span>Updated for current rules</span>
+                                    <span>Checked ${teamSourceCheckedAt}</span>
                                 </div>
                                 <div class="home-route-feature__actions">
-                                    <a class="button" href="${coreRoutes.get(0).path()}">Open route</a>
+                                    <a class="button" href="${coreRoutes.get(0).path()}">Open guide</a>
                                     <button class="ghost-button" type="button" data-lead-open data-route-id="${coreRoutes.get(0).id()}" data-route-path="${coreRoutes.get(0).path()}" data-intent="${coreRoutes.get(0).ctaIntent()}">${coreRoutes.get(0).ctaLabel()}</button>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                                             <p>${coreRoutes.get(i).summary()}</p>
                                         </div>
                                         <div class="home-route-list__actions">
-                                            <a class="text-link" href="${coreRoutes.get(i).path()}">Open route</a>
+                                            <a class="text-link" href="${coreRoutes.get(i).path()}">Open guide</a>
                                             <button class="ghost-button" type="button" data-lead-open data-route-id="${coreRoutes.get(i).id()}" data-route-path="${coreRoutes.get(i).path()}" data-intent="${coreRoutes.get(i).ctaIntent()}">${coreRoutes.get(i).ctaLabel()}</button>
                                         </div>
                                     </article>
@@ -144,18 +144,18 @@
                 <article class="home-guidance__panel">
                     <p class="eyebrow">Self-serve when</p>
                     <h2>The branch is already clear.</h2>
-                    <p>Keep moving yourself when the remaining work is preparation, timing, or document sequence rather than deciding which route applies.</p>
+                    <p>Keep moving yourself when the remaining work is preparation, timing, or document sequence rather than deciding which page applies.</p>
                     <ul class="home-guidance__list">
                         <li>The building looks clearly covered or clearly exempt.</li>
                         <li>The district timing is explicit or obviously not the live blocker.</li>
                         <li>The gas-status branch is already settled.</li>
-                        <li>The remaining question is what to prepare next, not which route is correct.</li>
+                        <li>The remaining question is what to prepare next, not which page is correct.</li>
                     </ul>
                 </article>
 
                 <article class="home-guidance__panel home-guidance__panel--accent">
                     <p class="eyebrow">Contact now when</p>
-                    <h2>One missing fact still changes the route.</h2>
+                    <h2>One missing fact still changes the answer.</h2>
                     <p>Send case details before the wrong filing step creates cleanup and another round of DOB guesswork.</p>
                     <ul class="home-guidance__list">
                         <li>The next filing step is still unclear even though coverage looks likely.</li>
@@ -170,7 +170,7 @@
             @if(!trustRoutes.isEmpty())
                 <section class="home-trust-surface">
                     <div class="home-section-heading">
-                        <p class="eyebrow">Trust surface</p>
+                        <p class="eyebrow">Trust and boundaries</p>
                         <h2>Read the boundaries before you share a building.</h2>
                         <p>Privacy, disclosure, contact rules, and methodology live here so the filing question stays separate from everything else.</p>
                     </div>

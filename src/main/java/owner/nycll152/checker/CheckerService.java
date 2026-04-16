@@ -66,7 +66,7 @@ public class CheckerService {
             nextActionChecklist = List.of(
                     "Verify the DOF class, BIN, or BBL against the official property record before relying on the exemption answer.",
                     "Keep any notice, violation, or property-record mismatch ready before you challenge the filing path.",
-                    "Use the exempt-building route before you pay or file against the wrong classification."
+                    "Use the exempt-building page before you pay or file against the wrong classification."
             );
             sourceIds = List.of("periodic-gas-piping-inspections", "cycle-2-service-notice");
             rationale.add("The official DOB page says one- and two-family homes and listed R-3 style DOF classes do not need to comply.");
@@ -173,7 +173,7 @@ public class CheckerService {
                 List.copyOf(nextActionChecklist),
                 officialSources,
                 List.copyOf(rationale),
-                "Use the official source anchors below as the final check before you submit anything in DOB NOW."
+                "Use the official city references below as the final check before you submit anything in DOB NOW."
         );
     }
 
@@ -219,7 +219,7 @@ public class CheckerService {
         boolean hasGasBranchSignal = hasGasPipingAnswer && (!gasPiping || hasActiveGasAnswer);
 
         if ("needs_gas_split".equals(scenarioKey)) {
-            return "One missing fact still changes the route: confirm whether the building has no gas piping, no active gas service, or active gas service.";
+            return "One missing fact still changes the answer: confirm whether the building has no gas piping, no active gas service, or active gas service.";
         }
 
         if (!hasGasBranchSignal) {
@@ -259,7 +259,7 @@ public class CheckerService {
             case "active_gas_service" ->
                     "Escalate when inspection scheduling, LMP coordination, GPS1, GPS2, or correction timing is now the blocker.";
             default ->
-                    "Escalate when the gas-status branch or the official property record can still flip the route you would take next.";
+                    "Escalate when the gas-status branch or the official property record can still change the next step you would take.";
         };
     }
 

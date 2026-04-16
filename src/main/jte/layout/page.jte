@@ -95,10 +95,10 @@
                 </div>
                 <button class="ghost-button" type="button" id="leadCloseButton" aria-label="Close lead form">Close</button>
             </div>
-            <p class="lead-drawer__summary" id="leadDrawerSummary">Use this when one missing fact still changes the filing path, due window, or gas-service branch. Sending the case now keeps the building facts, route, and blocker together before the wrong filing step creates delay.</p>
+            <p class="lead-drawer__summary" id="leadDrawerSummary">Use this when one missing fact still changes the filing path, due window, or gas-service branch. Sending the case now keeps the building facts, open question, and contact details together before the wrong filing step creates delay.</p>
             <ul class="checklist-list lead-drawer__checklist">
                 <li>Share only the building facts that still change the next step.</li>
-                <li>The intake stores the route, blocker, and contact details together so the next reply can start from the same case context.</li>
+                <li>The intake stores the open question, building reference, and contact details together so the next reply can start from the same case context.</li>
                 <li>For gas odor or unsafe conditions, use 911, your gas utility emergency line, or DOB emergency channels instead.</li>
             </ul>
             <form class="lead-form" id="leadForm">

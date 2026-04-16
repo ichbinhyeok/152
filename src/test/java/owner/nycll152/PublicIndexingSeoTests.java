@@ -126,7 +126,7 @@ class PublicIndexingSeoTests {
     void checkerEmitsBreadcrumbStructuredDataAndTeamTrust() throws Exception {
         String html = mockMvc.perform(get("/ll152-checker/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string(containsString("Current rule set")))
+                .andExpect(content().string(containsString("Official references checked")))
                 .andExpect(content().string(containsString("LL152 Guidance Desk")))
                 .andReturn()
                 .getResponse()
@@ -141,7 +141,7 @@ class PublicIndexingSeoTests {
     void routeStructuredDataRemainsValidJson() throws Exception {
         String html = mockMvc.perform(get("/filing-next-step/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string(containsString("Current page basis")))
+                .andExpect(content().string(containsString("Official references checked")))
                 .andReturn()
                 .getResponse()
                 .getContentAsString();
@@ -165,7 +165,7 @@ class PublicIndexingSeoTests {
         mockMvc.perform(get("/ll152-no-gas-piping-certification/"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(containsString("LL152 no gas piping certification")))
-                .andExpect(content().string(containsString("When this route applies")));
+                .andExpect(content().string(containsString("Use this page when")));
 
         mockMvc.perform(get("/ll152-no-active-gas-service/"))
                 .andExpect(status().isOk())

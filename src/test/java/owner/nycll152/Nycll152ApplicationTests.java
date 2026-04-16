@@ -240,7 +240,7 @@ class Nycll152ApplicationTests {
     void routePageShowsOfficialSourceAnchors() throws Exception {
         mockMvc.perform(get("/filing-next-step/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string(containsString("Official source anchors")));
+                .andExpect(content().string(containsString("Official city references")));
 	}
 
 	@Test
