@@ -1,0 +1,8 @@
+item,amount_usd,notes
+inspection_certification,35,Fee created by amended 1 RCNY 101-03 and 103-10.
+extension_request,35,Applies to initial certification extension or extension to correct conditions.
+correction_certification,35,Fee for gas piping certification of correction.
+no_gas_piping_certification,375,Fee for certification of no gas piping system in the building.
+no_gas_service_documentation,480,Fee for documentation regarding no gas service in the building.
+penalty_three_family,1500,Civil penalty for failure to file certification for a 3-family building.
+penalty_all_other_buildings,5000,Civil penalty for failure to file certification for all other buildings.

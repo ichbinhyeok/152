@@ -1,0 +1,770 @@
+[
+  {
+    "id": "about",
+    "slug": "about",
+    "path": "/about/",
+    "family": "trust",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "About this project",
+    "title": "NYC LL152 verdict and filing-next-step guidance",
+    "summary": "This site is built to answer whether a building is likely due, what the next filing step looks like, and whether LMP or certification help is the right next move.",
+    "hero": "Start with a likely verdict, then verify the final step against the current DOB guidance before you file.",
+    "imageUrl": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Dense New York City apartment buildings at dusk.",
+    "ctaLabel": "Run the checker",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "What this site is for",
+        "paragraphs": [
+          "This project is not a broad local plumbing blog. It is a narrow LL152 checker plus next-step routing surface for owners, landlords, supers, and managers who need an answer now.",
+          "The product is built around three questions: am I likely due, what do I file next, and do I need LMP or certification help right now."
+        ],
+        "bullets": [
+          "Likely applicability and timing guidance",
+          "No-gas-piping versus no-active-gas-service routing",
+          "Penalty, waiver, extension, and after-inspection context"
+        ]
+      },
+      {
+        "title": "How to use it",
+        "paragraphs": [
+          "Run the checker first when you have an address, BIN, BBL, or district hint.",
+          "Move to the scenario route that matches your gas setup before you assume the filing path is settled."
+        ],
+        "bullets": [
+          "Use likely language until you verify the live DOB guidance.",
+          "Treat partner routing as a next action, not as a replacement for official filing rules."
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/ll152-checker/",
+      "/methodology/",
+      "/not-government-affiliated/"
+    ]
+  },
+  {
+    "id": "methodology",
+    "slug": "methodology",
+    "path": "/methodology/",
+    "family": "trust",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "Methodology",
+    "title": "How the LL152 verdict flow is built",
+    "summary": "The checker is designed around official-source-first routing, phase-one launch constraints, and language that stays specific without pretending to give legal certainty.",
+    "hero": "The goal is to reduce filing ambiguity, not to overstate certainty.",
+    "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Tall buildings with repeating windows in Manhattan.",
+    "ctaLabel": "Run the checker",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "Editorial rules",
+        "paragraphs": [
+          "The public copy uses likely, verify, and based on the current DOB guidance language on purpose.",
+          "The site does not claim guaranteed compliance, legal advice, or universal penalty outcomes."
+        ],
+        "bullets": [
+          "Official DOB guidance outranks secondary plumber pages.",
+          "No gas piping and no active gas service remain separate scenarios.",
+          "Held routes stay noindex until evidence supports promotion."
+        ]
+      },
+      {
+        "title": "Operational rules",
+        "paragraphs": [
+          "Phase 1 prioritizes the checker, filing-next-step routing, the no-gas split, penalty context, after-inspection timing, and the 2026 timing page.",
+          "Support pages remain available for internal or contextual use, but they should not displace the main verdict surface."
+        ],
+        "bullets": [
+          "Source freshness status blocks promotion.",
+          "CTA clicks and lead submissions are recorded by route family.",
+          "Admin summaries are file-backed in phase 1."
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/about/",
+      "/ll152-checker/",
+      "/2026-deadline/"
+    ]
+  },
+  {
+    "id": "contact",
+    "slug": "contact",
+    "path": "/contact/",
+    "family": "trust",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "Contact",
+    "title": "Request a priority LL152 route review",
+    "summary": "Use the review intake when you already know the building address, gas status, or filing problem and want the team to confirm the next step before an inspection or certification handoff.",
+    "hero": "Send the building facts you already have. The team checks the route first, then points the case toward the right filing, inspection, or certification partner.",
+    "imageUrl": "https://images.unsplash.com/photo-1500916434205-0c77489c6cf7?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Office desk with a city view in the background.",
+    "ctaLabel": "Request priority review",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "What to send",
+        "paragraphs": [
+          "If you already know the address, BIN, BBL, or district, include it.",
+          "If the issue is no gas piping, no active gas service, penalty exposure, or after-inspection timing, say that directly."
+        ],
+        "bullets": [
+          "Address or building identifier",
+          "Gas piping status",
+          "Active gas service status",
+          "The filing or certification question blocking the next step"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/ll152-checker/",
+      "/filing-next-step/"
+    ]
+  },
+  {
+    "id": "privacy-data-use",
+    "slug": "privacy-data-use",
+    "path": "/privacy-data-use/",
+    "family": "trust",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "Privacy",
+    "title": "How building details and contact data are handled",
+    "summary": "Use this page to understand what the intake asks for, how the phase-one workflow stores it, and what should stay out of the lead form.",
+    "hero": "Share only the building facts needed to clarify the next LL152 step. Keep DOB credentials, payment data, and emergency reports out of this intake.",
+    "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Desk workspace with a laptop, notebook, and phone.",
+    "ctaLabel": "Request priority review",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "What the intake asks for",
+        "paragraphs": [
+          "Phase 1 asks for contact details, a building reference, the route or scenario already in view, and a short note about what still blocks the next LL152 action.",
+          "That information is meant to reduce back-and-forth before the next manual review step."
+        ],
+        "bullets": [
+          "Name and email for follow-up",
+          "Building address or identifier",
+          "Route path, intent, and scenario context",
+          "A short message about the filing blocker"
+        ]
+      },
+      {
+        "title": "What to leave out",
+        "paragraphs": [
+          "Do not send DOB NOW credentials, payment details, government IDs, or unrelated tenant information through this form.",
+          "The intake is for routing context, not for account takeover, billing, or emergency gas reporting."
+        ],
+        "bullets": [
+          "No DOB passwords or login screenshots",
+          "No credit card or bank data",
+          "No Social Security or tax identification data",
+          "No emergency condition reports that should go directly to the utility, DOB, or 911"
+        ]
+      },
+      {
+        "title": "How the phase-one workflow stores it",
+        "paragraphs": [
+          "The current phase-one intake writes the submitted fields into the file-backed lead log so the route, timing, and scenario can be reviewed together.",
+          "Send only what is necessary to clarify the likely next LL152 step."
+        ],
+        "bullets": [
+          "Lead fields are tied to the route path and intent",
+          "Event logs record CTA and intake activity by route",
+          "Use direct official channels when the issue is emergency, billing, or portal access"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/contact/",
+      "/methodology/",
+      "/response-policy/"
+    ]
+  },
+  {
+    "id": "response-policy",
+    "slug": "response-policy",
+    "path": "/response-policy/",
+    "family": "trust",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "Response policy",
+    "title": "What happens after you send a building for review",
+    "summary": "The intake is used to review the likely route, identify the blocking fact, and decide whether the next move is self-serve guidance or filing help.",
+    "hero": "This intake is built for manual next-step review. It is not emergency dispatch, not DOB filing submission, and not a promise that the route will stay unchanged after official verification.",
+    "imageUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Team workspace with notebooks and a city office view.",
+    "ctaLabel": "Request priority review",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "What the team can clarify",
+        "paragraphs": [
+          "The review is meant to narrow the likely branch, identify the missing fact that still controls the answer, and point to the next LL152 action with less ambiguity.",
+          "The team can help separate routing questions from document-gathering questions."
+        ],
+        "bullets": [
+          "Likely coverage versus exemption framing",
+          "Due-window and district context",
+          "No gas piping versus no active gas service routing",
+          "Inspection, GPS1, GPS2, correction, waiver, or extension context"
+        ]
+      },
+      {
+        "title": "What the team will usually need next",
+        "paragraphs": [
+          "If the intake is still broad, the next useful step is usually building identity, gas status, district timing, or the document already in hand.",
+          "The more specific the blocker, the faster the route can stabilize."
+        ],
+        "bullets": [
+          "Address, BIN, or BBL",
+          "Current gas piping and active-service status",
+          "Community district or due-cycle clue",
+          "The filing, certification, or correction step already underway"
+        ]
+      },
+      {
+        "title": "When not to wait for a reply",
+        "paragraphs": [
+          "Do not use this intake for emergency gas conditions, unsafe conditions, or anything that should move through the utility, emergency services, or DOB immediately.",
+          "Do not treat intake review as a substitute for the official filing deadline or for licensed sign-off."
+        ],
+        "bullets": [
+          "Active gas odor or emergency conditions",
+          "Unsafe conditions that require immediate reporting",
+          "DOB submission tasks that are already due now",
+          "Any situation where licensed professional sign-off is the immediate blocker"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/contact/",
+      "/privacy-data-use/",
+      "/not-government-affiliated/"
+    ]
+  },
+  {
+    "id": "not-government-affiliated",
+    "slug": "not-government-affiliated",
+    "path": "/not-government-affiliated/",
+    "family": "trust",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "Trust notice",
+    "title": "This site is not government-affiliated",
+    "summary": "The verdict engine is built to explain likely next steps under the current DOB guidance, but it is not a government service and it does not submit filings for DOB.",
+    "hero": "Use this site to reduce ambiguity, then verify the final filing path against the current official guidance.",
+    "imageUrl": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Downtown city corridor between large buildings.",
+    "ctaLabel": "Run the checker",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "Important boundary",
+        "paragraphs": [
+          "This product does not replace official DOB notices, filing systems, or professional sign-off.",
+          "The public promise is narrow: explain the likely compliance next step and route the user to the next action with less confusion."
+        ],
+        "bullets": [
+          "Not a DOB portal",
+          "Not legal advice",
+          "Not a guarantee that a filing is complete or accepted"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/about/",
+      "/methodology/"
+    ]
+  },
+  {
+    "id": "ll152-checker",
+    "slug": "ll152-checker",
+    "path": "/ll152-checker/",
+    "family": "checker",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "Core verdict tool",
+    "title": "Does this building need LL152 inspection?",
+    "summary": "Use the LL152 checker to see whether the building likely needs inspection, which cycle applies, and which filing path matches the gas status.",
+    "hero": "Start with the smallest set of building facts you already know, then narrow the answer until the next LL152 filing step is clear.",
+    "imageUrl": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Residential buildings lined up along a New York block.",
+    "ctaLabel": "Request priority review",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "What the checker looks for",
+        "paragraphs": [
+          "The fastest routing inputs are address or building identifier, building profile, district hint, gas piping status, and active gas service status."
+        ],
+        "bullets": [
+          "Coverage and due-cycle hints",
+          "No-gas-piping versus no-active-gas-service split",
+          "Likely next filing or correction path"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/filing-next-step/",
+      "/ll152-no-gas-piping-certification/",
+      "/ll152-no-active-gas-service/",
+      "/2026-deadline/"
+    ]
+  },
+  {
+    "id": "filing-next-step",
+    "slug": "filing-next-step",
+    "path": "/filing-next-step/",
+    "family": "filing-next-step",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "Next-step route",
+    "title": "LL152 filing next step after inspection, GPS1, or GPS2",
+    "summary": "Use this page when the building already looks covered and the open question is what gets filed next, who acts next, and when manual filing help becomes urgent.",
+    "hero": "Once the building looks covered, the question is no longer what LL152 is. The question is what gets filed next, who moves first, and whether review is still needed before filing.",
+    "imageUrl": "https://images.unsplash.com/photo-1546436836-07a91091f160?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Mid-rise buildings under a bright New York sky.",
+    "ctaLabel": "Request filing-step review",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "Use this route when",
+        "paragraphs": [
+          "The building is likely covered and the blocker is no longer applicability. The blocker is the next filing step, inspection path, or certification path.",
+          "DOB's current filing timeline is GPS1 to the owner within 30 days of inspection and GPS2 from the owner to DOB within 60 days."
+        ],
+        "bullets": [
+          "You need to move from verdict to filing action",
+          "You need to know whether the gas-status split changes the paperwork",
+          "You need to know whether LMP help is now the right next action"
+        ]
+      },
+      {
+        "title": "Move out of this route when",
+        "paragraphs": [
+          "If the building truly has no gas piping, or still has piping but no active service, the no-gas split page is usually the better route before you act."
+        ],
+        "bullets": [
+          "No gas piping goes to a different next-step path",
+          "No active gas service still needs filing-aware review"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/no-gas-vs-no-active-gas-service/",
+      "/after-inspection-gps1-gps2/",
+      "/extension-penalty-waiver/"
+    ]
+  },
+  {
+    "id": "no-gas-vs-no-active-gas-service",
+    "slug": "no-gas-vs-no-active-gas-service",
+    "path": "/no-gas-vs-no-active-gas-service/",
+    "family": "no-gas-split",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "Scenario split",
+    "title": "LL152 no gas piping vs no active gas service",
+    "summary": "Use this comparison page when you need to separate the two most common LL152 branch mistakes before you file or request partner help.",
+    "hero": "These are not the same route. No gas piping and no active gas service change the signer, documents, and repeat-cycle obligation.",
+    "imageUrl": "https://images.unsplash.com/photo-1522083165195-3424ed129620?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Exterior of a dense city block with mixed building types.",
+    "ctaLabel": "Request gas-status review",
+    "ctaIntent": "certification_help",
+    "sections": [
+      {
+        "title": "No gas piping",
+        "paragraphs": [
+          "Start here when the building truly has no gas piping. This is not the same as a building with dormant service.",
+          "Under the current DOB rule set, certification that the building has no gas piping is a one-time submission and may come from a utility company, registered design professional, or licensed master plumber."
+        ],
+        "bullets": [
+          "Treat certification language carefully",
+          "Verify the current DOB guidance before assuming the submission type",
+          "Do not borrow the active-service filing path"
+        ]
+      },
+      {
+        "title": "No active gas service",
+        "paragraphs": [
+          "When gas piping still exists, the building often remains filing-sensitive even if service is not active right now.",
+          "DOB now requires utility-company documentation for this scenario every cycle, plus an owner statement that the building no longer receives gas service and no appliances remain connected."
+        ],
+        "bullets": [
+          "Keep piping presence in view",
+          "Use filing-aware review before you call the route resolved",
+          "Check whether correction or certification support is still needed"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/ll152-no-gas-piping-certification/",
+      "/ll152-no-active-gas-service/",
+      "/filing-next-step/",
+      "/extension-penalty-waiver/",
+      "/after-inspection-gps1-gps2/"
+    ]
+  },
+  {
+    "id": "ll152-no-gas-piping-certification",
+    "slug": "ll152-no-gas-piping-certification",
+    "path": "/ll152-no-gas-piping-certification/",
+    "family": "no-gas-split",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "No gas piping path",
+    "title": "LL152 no gas piping certification: when the filing is one-time",
+    "summary": "Use this page when the building truly has no gas piping and you need to know who can certify it, what to collect, and why the filing is different from no active gas service.",
+    "hero": "This route only works when the building truly has no gas piping. If piping still exists anywhere, stop and move to the no-active-gas-service path instead.",
+    "imageUrl": "https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Rooftop and upper-floor mechanical structures above New York apartment buildings.",
+    "ctaLabel": "Request no-gas certification review",
+    "ctaIntent": "certification_help",
+    "sections": [
+      {
+        "title": "When this route applies",
+        "paragraphs": [
+          "Use this route only when the building truly has no gas piping. This is a one-time certification path under the current DOB guidance, not a recurring-cycle no-service path.",
+          "The route breaks the moment gas piping still exists anywhere in the building, even if service is not active."
+        ],
+        "bullets": [
+          "No gas piping anywhere in the building system",
+          "One-time certification path under the current DOB guidance",
+          "Signer can be a utility company, registered design professional, or licensed master plumber"
+        ]
+      },
+      {
+        "title": "What to collect before filing",
+        "paragraphs": [
+          "Keep the building identity and signer details ready before you treat the route as settled.",
+          "The point is to prove no piping, not just no active service."
+        ],
+        "bullets": [
+          "BIN or BBL and exact building identity",
+          "Statement of the no-gas-piping condition",
+          "Signer identity and utility or license details",
+          "Any building notes that rule out a dormant-service scenario"
+        ]
+      },
+      {
+        "title": "When this route fails",
+        "paragraphs": [
+          "Many wrong filings happen because a utility shutoff is mistaken for a no-piping condition.",
+          "If piping still exists, even as abandoned or inactive piping, the route needs to move elsewhere."
+        ],
+        "bullets": [
+          "Gas piping still exists even if service is off",
+          "Abandoned or hidden piping has not been ruled out",
+          "Utility shutoff is being confused with piping removal"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/no-gas-vs-no-active-gas-service/",
+      "/ll152-no-active-gas-service/",
+      "/ll152-checker/"
+    ]
+  },
+  {
+    "id": "ll152-no-active-gas-service",
+    "slug": "ll152-no-active-gas-service",
+    "path": "/ll152-no-active-gas-service/",
+    "family": "no-gas-split",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "No active service path",
+    "title": "LL152 no active gas service: what DOB still expects each cycle",
+    "summary": "Use this page when gas piping still exists but the building no longer has active gas service and you need the recurring documentation path, not the no-gas-piping route.",
+    "hero": "No active gas service does not mean no gas piping. When piping still exists, the route stays filing-sensitive and usually needs utility documentation every cycle.",
+    "imageUrl": "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Dense Manhattan apartment facades in late afternoon light.",
+    "ctaLabel": "Request no-active-service review",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "When this route applies",
+        "paragraphs": [
+          "Use this route when gas piping still exists in the building but the utility no longer supplies active gas service.",
+          "This is not the same as the one-time no-gas-piping certification path."
+        ],
+        "bullets": [
+          "Gas piping is still present",
+          "Service is off or fully deactivated",
+          "The building needs recurring-cycle documentation, not one-time no-piping certification"
+        ]
+      },
+      {
+        "title": "What DOB expects",
+        "paragraphs": [
+          "The route usually needs utility-company documentation plus an owner statement that no appliances remain connected.",
+          "The route stays recurring until the building condition changes."
+        ],
+        "bullets": [
+          "Utility-company documentation for the service status",
+          "Owner statement that no gas appliances remain connected",
+          "Repeat the documentation every cycle until the condition changes"
+        ]
+      },
+      {
+        "title": "What still needs manual review",
+        "paragraphs": [
+          "If shutoff dates, appliance removal, or the piping condition are still unclear, the route is not stable yet.",
+          "At that point the problem is no longer a simple documentation question."
+        ],
+        "bullets": [
+          "Utility shutoff dates are unclear",
+          "Appliance removal is still unresolved",
+          "The building may still need inspection, correction, or another filing path"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/no-gas-vs-no-active-gas-service/",
+      "/ll152-no-gas-piping-certification/",
+      "/filing-next-step/"
+    ]
+  },
+  {
+    "id": "extension-penalty-waiver",
+    "slug": "extension-penalty-waiver",
+    "path": "/extension-penalty-waiver/",
+    "family": "penalty",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "Penalty context",
+    "title": "LL152 penalty, extension, and waiver options",
+    "summary": "Penalty questions usually hide the real next-step problem: what can still be filed, whether a waiver path exists, and whether correction or certification support is now required.",
+    "hero": "A penalty question is rarely just a penalty question. It usually means the next filing step is still unresolved and needs review before you act.",
+    "imageUrl": "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "New York avenue with buildings and traffic.",
+    "ctaLabel": "Request penalty review",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "What this page is for",
+        "paragraphs": [
+          "Use this route when the issue is missed timing, open exposure, or confusion about whether an extension, waiver, or correction path is still available.",
+          "The current rule text and Cycle 2 notice split the civil penalty between $1,500 for a 3-family building and $5,000 for most other buildings."
+        ],
+        "bullets": [
+          "Do not assume every late building shares the same outcome",
+          "The missed step still needs to be identified before the remedy is clear",
+          "Gas status can still change the correct next action",
+          "Current waiver grounds include ownership changes, misclassification, no active gas service, no gas piping work in progress, and other rule-based categories"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/filing-next-step/",
+      "/after-inspection-gps1-gps2/",
+      "/2026-deadline/"
+    ]
+  },
+  {
+    "id": "after-inspection-gps1-gps2",
+    "slug": "after-inspection-gps1-gps2",
+    "path": "/after-inspection-gps1-gps2/",
+    "family": "after-inspection",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "After inspection timing",
+    "title": "LL152 GPS1 and GPS2 deadlines after inspection",
+    "summary": "Use this page after the inspection when GPS1, GPS2, correction timing, or late submission is the blocker.",
+    "hero": "After inspection, the work is not automatically done. The filing path still needs to match the actual inspection outcome and deadline sequence.",
+    "imageUrl": "https://images.unsplash.com/photo-1529429611270-2f0d9f2c4a0c?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Rows of city buildings seen from an elevated viewpoint.",
+    "ctaLabel": "Request GPS1 and GPS2 review",
+    "ctaIntent": "lmp_help",
+    "sections": [
+      {
+        "title": "Where this route helps",
+        "paragraphs": [
+          "Use this route when the blocker is no longer whether the building is covered. The blocker is the after-inspection sequence, timing, or correction path.",
+          "The baseline DOB sequence is GPS1 within 30 days, GPS2 within 60 days, correction certification within 120 days, or within 180 days when additional time was requested."
+        ],
+        "bullets": [
+          "Inspection completed but next filing is unclear",
+          "GPS1 and GPS2 sequence confusion",
+          "Correction timing is the real blocker"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/filing-next-step/",
+      "/extension-penalty-waiver/",
+      "/corrected-certification/"
+    ]
+  },
+  {
+    "id": "2026-deadline",
+    "slug": "2026-deadline",
+    "path": "/2026-deadline/",
+    "family": "due-cycle",
+    "phase": "phase1",
+    "indexStatus": "index",
+    "eyebrow": "Timing guide",
+    "title": "LL152 2026 deadline by community district",
+    "summary": "This page is for owners who think 2026 is the live timing window and need a next-step framing before they verify the exact sub-cycle or filing date against the current DOB notice.",
+    "hero": "Treat this page as the timing route for active-cycle intent, not as a substitute for the live DOB notice.",
+    "imageUrl": "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Wide New York skyline with high-rise buildings.",
+    "ctaLabel": "Request cycle review",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "What this route should answer",
+        "paragraphs": [
+          "Use the page when the user is trying to confirm whether 2026 is the active year for the building and what the next filing step would be if it is.",
+          "DOB's current Cycle 2 map places community districts 4, 6, 8, 9, and 16 in Sub-cycle C for calendar year 2026."
+        ],
+        "bullets": [
+          "Use district, BIN, or BBL to tighten the timing check",
+          "Verify the live DOB notice before submitting",
+          "Move to the gas-status split if the timing is clear but the filing path is not"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/ll152-checker/",
+      "/filing-next-step/",
+      "/extension-penalty-waiver/"
+    ]
+  },
+  {
+    "id": "corrected-certification",
+    "slug": "corrected-certification",
+    "path": "/corrected-certification/",
+    "family": "support",
+    "phase": "support",
+    "indexStatus": "noindex",
+    "eyebrow": "Held support route",
+    "title": "Corrected certification support route",
+    "summary": "This route stays held until after-inspection and correction confusion shows repeated demand.",
+    "hero": "Use this page as support context only until the route earns promotion.",
+    "imageUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Sunlit Manhattan street with mid-rise buildings.",
+    "ctaLabel": "Get help with this filing step",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "Current status",
+        "paragraphs": [
+          "This page is available as a support route, but it remains out of the public index until repeated correction demand proves it helps users take a real next step."
+        ],
+        "bullets": [
+          "Noindex by default",
+          "Linked only when relevant to after-inspection routing"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/after-inspection-gps1-gps2/"
+    ]
+  },
+  {
+    "id": "unsafe-condition",
+    "slug": "unsafe-condition",
+    "path": "/unsafe-condition/",
+    "family": "support",
+    "phase": "support",
+    "indexStatus": "noindex",
+    "eyebrow": "Held support route",
+    "title": "Unsafe-condition support route",
+    "summary": "This support page remains held until urgent-condition demand repeats enough to justify a dedicated route.",
+    "hero": "Use this page as contextual help only. It is not emergency advice content.",
+    "imageUrl": "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "High-rise buildings across the New York skyline.",
+    "ctaLabel": "Get LL152 inspection help",
+    "ctaIntent": "lmp_help",
+    "sections": [
+      {
+        "title": "Current status",
+        "paragraphs": [
+          "The route is intentionally held and noindex until it can explain safe next steps without turning into thin or overly broad emergency-advice content."
+        ],
+        "bullets": [
+          "Use core verdict routes first",
+          "Promote only if urgent-condition demand repeats"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/filing-next-step/"
+    ]
+  },
+  {
+    "id": "exempt-building-notification",
+    "slug": "exempt-building-notification",
+    "path": "/exempt-building-notification/",
+    "family": "support",
+    "phase": "support",
+    "indexStatus": "noindex",
+    "eyebrow": "Held support route",
+    "title": "Exempt-building challenge support route",
+    "summary": "This route remains held until exemption and challenge confusion produces repeat, route-worthy demand.",
+    "hero": "Use this route when the property looks exempt on paper, but the DOB or DOF profile still points the owner toward an LL152 filing or violation path.",
+    "imageUrl": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Apartment buildings viewed across a city skyline.",
+    "ctaLabel": "Get exempt-building review",
+    "ctaIntent": "filing_help",
+    "sections": [
+      {
+        "title": "Current status",
+        "paragraphs": [
+          "This page exists as a support-layer route only. It should not become a public indexable page until exemption confusion shows enough repeat demand to justify it.",
+          "The current DOB inspections page says one- and two-family homes and listed R-3 style DOF classifications do not need to comply with LL152."
+        ],
+        "bullets": [
+          "Noindex by default",
+          "Use DOF class and official property-profile checks before assuming an exemption",
+          "Cycle 2 violation notices allow challenge or waiver requests within 30 days from the notice date",
+          "If a one- or two-family home is misclassified, use the exempt-building notification path rather than assuming the notice is correct"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/ll152-checker/",
+      "/methodology/"
+    ]
+  },
+  {
+    "id": "lmp-finder",
+    "slug": "lmp-finder",
+    "path": "/lmp-finder/",
+    "family": "support",
+    "phase": "support",
+    "indexStatus": "noindex",
+    "eyebrow": "Held support route",
+    "title": "LMP finder support route",
+    "summary": "Broad finder pages stay held until the checker and next-step pages already show reliable routing demand.",
+    "hero": "Do not let a broad directory replace the verdict product before the verdict product proves real demand.",
+    "imageUrl": "https://images.unsplash.com/photo-1500916434205-0c77489c6cf7?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Workspace with city skyline outside the window.",
+    "ctaLabel": "Get LL152 inspection help",
+    "ctaIntent": "lmp_help",
+    "sections": [
+      {
+        "title": "Current status",
+        "paragraphs": [
+          "This route is intentionally held and noindex. It should only move forward after the checker and next-step pages already prove genuine LMP-routing demand."
+        ],
+        "bullets": [
+          "Not a public directory",
+          "Only promote after verdict routes show real routing value"
+        ]
+      }
+    ],
+    "relatedPaths": [
+      "/ll152-checker/",
+      "/filing-next-step/"
+    ]
+  }
+]

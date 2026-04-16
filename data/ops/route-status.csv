@@ -1,0 +1,19 @@
+route id,route path,route family,phase,index status,source freshness status,checker starts,checker completions,cta clicks,lead submissions,promotion recommendation,recommendation reason
+home,/,home,phase1,index,current,0,0,2,1,hold,Homepage is the entry point and not a route-promotion candidate.
+about,/about/,trust,phase1,index,current,0,0,2,0,hold,Trust route.
+methodology,/methodology/,trust,phase1,index,current,0,0,2,0,hold,Trust route.
+contact,/contact/,trust,phase1,index,current,0,0,2,0,hold,Trust route.
+not-government-affiliated,/not-government-affiliated/,trust,phase1,index,current,0,0,2,0,hold,Trust route.
+ll152-checker,/ll152-checker/,checker,phase1,index,current,28,28,0,0,hold,Core verdict route.
+filing-next-step,/filing-next-step/,filing-next-step,phase1,index,current,0,0,18,5,hold,Core verdict route.
+no-gas-vs-no-active-gas-service,/no-gas-vs-no-active-gas-service/,no-gas-split,phase1,index,current,0,0,5,0,hold,Core verdict route.
+extension-penalty-waiver,/extension-penalty-waiver/,penalty,phase1,index,current,0,0,5,0,hold,Core verdict route.
+after-inspection-gps1-gps2,/after-inspection-gps1-gps2/,after-inspection,phase1,index,current,0,0,5,0,hold,Core verdict route.
+2026-deadline,/2026-deadline/,due-cycle,phase1,index,current,0,0,5,0,hold,Core verdict route.
+corrected-certification,/corrected-certification/,support,support,noindex,current,0,0,2,0,hold,Held route.
+unsafe-condition,/unsafe-condition/,support,support,noindex,current,0,0,0,0,hold,Held route.
+exempt-building-notification,/exempt-building-notification/,support,support,noindex,current,0,0,0,0,hold,Held route.
+lmp-finder,/lmp-finder/,support,support,noindex,current,0,0,0,0,hold,Held route.
+district-overlay,/districts/{district}/,district-overlay,support,noindex,current,0,0,0,0,hold,Held template route.
+ll152-no-gas-piping-certification,/ll152-no-gas-piping-certification/,no-gas-split,phase1,index,current,0,0,2,0,hold,Core verdict route.
+ll152-no-active-gas-service,/ll152-no-active-gas-service/,no-gas-split,phase1,index,current,0,0,1,0,hold,Core verdict route.

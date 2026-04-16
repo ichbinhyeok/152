@@ -1,0 +1,83 @@
+{
+  "noviceOwner": {
+    "home": {
+      "heroTitle": "Determine yourNYC LL152 pathbefore you openDOB NOW.",
+      "heroSummary": "Answer a few building questions to see whether LL152 likely applies, when the likely cycle window falls, and what filing step comes next. Start with the checker when you only know the address, district, or gas status.",
+      "firstBenefitHeading": "What you get back first",
+      "railButton": "Run checker",
+      "heroTop": 266,
+      "railHeight": 174,
+      "visibleNavLabels": [
+        "Home",
+        "Run checker",
+        "Route guides",
+        "Admin"
+      ]
+    },
+    "checker": {
+      "intro": "Start with the smallest set of facts you already know, then tighten the answer until the next filing step is clear.",
+      "formNote": "Address, BIN, and BBL identify the building, but the verdict will not run until you add at least one routing detail: district, building profile, DOF class, or gas status.",
+      "status": "Add a district, DOF class, building profile, or gas-status detail before you run the verdict.",
+      "coverage": "Verdict pending",
+      "nextStep": "Run the checker to render the next action."
+    },
+    "checkerApiCalls": 0
+  },
+  "propertyManager": {
+    "checkerResponseStatus": 200,
+    "result": {
+      "confidence": "Medium confidence. The likely path is clear, but one core property input is still missing.",
+      "nextStep": "Prepare the inspection, GPS1, and GPS2 filing path.",
+      "coverage": "Coverage still needs verification. Add a DOF class, building profile, or official property identifier for a tighter verdict.",
+      "dueCycle": "Community District 6 is in Cycle 2, Sub-cycle C. The official inspection window is January 1, 2026 through December 31, 2026.",
+      "routeButtonTop": 1766.4,
+      "leadButtonTop": 1766.4,
+      "sourceTitles": [
+        "Periodic Gas Piping System Inspections",
+        "Local Law 152 Frequently Asked Questions",
+        "Gas Piping System Inspection Certification"
+      ]
+    },
+    "route": {
+      "heroTitle": "Use the filing-next-step route when the building seems covered",
+      "actionHeading": "Move from verdict to the next filing step.",
+      "actionSummary": "This page is for owners who are past the broad LL152 question and need to know what to prepare, who likely needs to act next, and when certification help becomes urgent.",
+      "officialSourceCount": 3,
+      "checklistItems": [
+        "Confirm whether the building has no gas piping, no active gas service, or active gas service before opening the filing path.",
+        "Collect BIN or BBL, the community district, and the owner contact that will receive GPS1 or certification follow-up.",
+        "Escalate to LMP or filing help only after the branch is explicit."
+      ]
+    }
+  },
+  "expertConsultant": {
+    "route": {
+      "breadcrumb": [
+        "Root",
+        "/",
+        "Verdict engine",
+        "/",
+        "filing-next-step"
+      ],
+      "heroSummary": "Once the building looks covered, the main question is no longer what LL152 is. The question is what you file next and who needs to move first.",
+      "sequenceHeading": "What to prepare next",
+      "officialSources": [
+        "Periodic Gas Piping System Inspections\n                                    Verified 2026-04-14",
+        "Local Law 152 Frequently Asked Questions\n                                    Verified 2026-04-14",
+        "Gas Piping System Inspection Certification\n                                    Verified 2026-04-14"
+      ],
+      "leadButton": "Get help with this filing step"
+    },
+    "drawer": {
+      "title": "Send this building for review",
+      "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+      "fields": [
+        "Name",
+        "Email",
+        "Phone",
+        "Building address or ID",
+        "What still needs review?"
+      ]
+    }
+  }
+}

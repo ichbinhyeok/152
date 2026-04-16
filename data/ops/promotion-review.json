@@ -1,0 +1,9 @@
+{
+  "updatedAt": "2026-04-14T00:30:00+09:00",
+  "summary": "No route family has enough evidence for promotion yet. Keep held routes out of the public index until checker and next-step demand produces repeat signals.",
+  "heldRecommendations": [
+    "District overlays remain support-only until district-specific demand proves they add decision value.",
+    "Corrected-certification and unsafe-condition routes remain held until real support patterns repeat.",
+    "Exempt-building support is now backed by official sources, but it should stay noindex until actual challenge demand repeats."
+  ]
+}

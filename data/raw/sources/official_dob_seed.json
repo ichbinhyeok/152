@@ -1,0 +1,63 @@
+{
+  "capturedAt": "2026-04-14",
+  "status": "verified",
+  "sourceIds": [
+    "periodic-gas-piping-inspections",
+    "ll152-faqs",
+    "ll152-follow-up-7",
+    "cycle-2-service-notice",
+    "nyc311-gps2-certification",
+    "rcny-103-10"
+  ],
+  "sources": [
+    {
+      "sourceId": "periodic-gas-piping-inspections",
+      "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page",
+      "retrievedAt": "2026-04-14",
+      "notes": [
+        "Primary DOB page for coverage, district schedule, gas-status routing, and filing timeline.",
+        "Shows Cycle 2 sub-cycles and the current 2026 Sub-cycle C districts."
+      ]
+    },
+    {
+      "sourceId": "ll152-faqs",
+      "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/ll152-faqs.page",
+      "retrievedAt": "2026-04-14",
+      "notes": [
+        "Clarifies R-3 scope, leak-survey boundaries, unsafe-condition reporting, GPS1/GPS2 timing, and extensions."
+      ]
+    },
+    {
+      "sourceId": "ll152-follow-up-7",
+      "url": "https://www.nyc.gov/assets/buildings/pdf/ll152follup7-su.pdf",
+      "retrievedAt": "2026-04-14",
+      "notes": [
+        "Adds 2026 changes around no active gas service, no gas piping, two-day notification, violation resolution, waivers, and fees."
+      ]
+    },
+    {
+      "sourceId": "cycle-2-service-notice",
+      "url": "https://www.nyc.gov/assets/buildings/pdf/gps-cycle2-sn.pdf",
+      "retrievedAt": "2026-04-14",
+      "notes": [
+        "Confirms Cycle 2 timing map, the $1,500 penalty for 3-family buildings, the $5,000 default penalty, and the 30-day challenge or waiver window."
+      ]
+    },
+    {
+      "sourceId": "nyc311-gps2-certification",
+      "url": "https://portal.311.nyc.gov/article/?kanumber=KA-03353",
+      "retrievedAt": "2026-04-14",
+      "notes": [
+        "Confirms GPS2 submission through the DOB portal and who can sign no-gas-piping certifications."
+      ]
+    },
+    {
+      "sourceId": "rcny-103-10",
+      "url": "https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-10_prom_details_date.pdf",
+      "retrievedAt": "2026-04-14",
+      "notes": [
+        "Rule text for fees, penalties, one-time no-gas-piping certification, no-active-gas-service documentation every cycle, and waiver categories."
+      ]
+    }
+  ]
+}

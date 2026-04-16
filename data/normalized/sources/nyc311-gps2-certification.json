@@ -1,0 +1,14 @@
+{
+  "sourceId": "nyc311-gps2-certification",
+  "title": "Gas Piping System Inspection Certification",
+  "sourceType": "nyc311_article",
+  "status": "current",
+  "verifiedAt": "2026-04-14",
+  "url": "https://portal.311.nyc.gov/article/?kanumber=KA-03353",
+  "keyFacts": [
+    "Owners of covered buildings submit GPS2 through the DOB online portal.",
+    "Buildings that do not contain gas piping still submit a GPS2 certification stating that the building does not contain gas piping.",
+    "The no-gas-piping certification may be signed and sealed by either a registered design professional or a licensed master plumber.",
+    "The NYC311 article still presents the baseline late-filing penalty framing as $5,000."
+  ]
+}

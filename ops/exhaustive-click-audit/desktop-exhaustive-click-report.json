@@ -1,0 +1,2677 @@
+{
+  "generatedAt": "2026-04-14T08:30:30.343Z",
+  "pages": {
+    "/": {
+      "total": 32,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "FIND THE BLOCKER",
+          "tag": "a",
+          "href": "#pick-the-blocker",
+          "id": "",
+          "outcome": {
+            "url": "/#pick-the-blocker",
+            "scrollY": 1221
+          }
+        },
+        {
+          "text": "REVIEW ROUTE",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "GET HELP WITH THIS FILING STEP",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/filing-next-step/",
+            "intent": "filing_help"
+          }
+        },
+        {
+          "text": "REVIEW ROUTE",
+          "tag": "a",
+          "href": "/no-gas-vs-no-active-gas-service/",
+          "id": "",
+          "outcome": {
+            "url": "/no-gas-vs-no-active-gas-service/",
+            "title": "Separate no gas piping from no active gas service before you file",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "GET CERTIFICATION HELP FOR THIS PATH",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/no-gas-vs-no-active-gas-service/",
+            "intent": "certification_help"
+          }
+        },
+        {
+          "text": "REVIEW ROUTE",
+          "tag": "a",
+          "href": "/extension-penalty-waiver/",
+          "id": "",
+          "outcome": {
+            "url": "/extension-penalty-waiver/",
+            "title": "Use the penalty, waiver, and extension page when nothing was filed on time",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "REVIEW WAIVER OR LATE-FILING OPTIONS",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/extension-penalty-waiver/",
+            "intent": "filing_help"
+          }
+        },
+        {
+          "text": "REVIEW ROUTE",
+          "tag": "a",
+          "href": "/after-inspection-gps1-gps2/",
+          "id": "",
+          "outcome": {
+            "url": "/after-inspection-gps1-gps2/",
+            "title": "Use the after-inspection route when GPS1 and GPS2 timing becomes the blocker",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "GET GPS1 AND GPS2 FILING HELP",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/after-inspection-gps1-gps2/",
+            "intent": "lmp_help"
+          }
+        },
+        {
+          "text": "REVIEW ROUTE",
+          "tag": "a",
+          "href": "/2026-deadline/",
+          "id": "",
+          "outcome": {
+            "url": "/2026-deadline/",
+            "title": "Use the 2026 timing page when the building may be in the active cycle",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECK THIS BUILDING'S NEXT STEP",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/2026-deadline/",
+            "intent": "filing_help"
+          }
+        },
+        {
+          "text": "CHECK IF THIS BUILDING IS DUE NOW",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "FIND THE NEXT LL152 FILING STEP",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "SEPARATE NO GAS PIPING FROM NO ACTIVE GAS SERVICE",
+          "tag": "a",
+          "href": "/no-gas-vs-no-active-gas-service/",
+          "id": "",
+          "outcome": {
+            "url": "/no-gas-vs-no-active-gas-service/",
+            "title": "Separate no gas piping from no active gas service before you file",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "REVIEW PENALTY, EXTENSION, OR WAIVER OPTIONS",
+          "tag": "a",
+          "href": "/extension-penalty-waiver/",
+          "id": "",
+          "outcome": {
+            "url": "/extension-penalty-waiver/",
+            "title": "Use the penalty, waiver, and extension page when nothing was filed on time",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "TRACK GPS1, GPS2, AND CORRECTION TIMING",
+          "tag": "a",
+          "href": "/after-inspection-gps1-gps2/",
+          "id": "",
+          "outcome": {
+            "url": "/after-inspection-gps1-gps2/",
+            "title": "Use the after-inspection route when GPS1 and GPS2 timing becomes the blocker",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NYC LL152 VERDICT AND FILING-NEXT-STEP GUIDANCE",
+          "tag": "a",
+          "href": "/about/",
+          "id": "",
+          "outcome": {
+            "url": "/about/",
+            "title": "NYC LL152 verdict and filing-next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOW THE LL152 VERDICT FLOW IS BUILT",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "SEND THE BUILDING DETAILS YOU ALREADY HAVE",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "THIS SITE IS NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    },
+    "/ll152-checker/": {
+      "total": 17,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE FILING-NEXT-STEP ROUTE WHEN THE BUILDING SEEMS COVERED",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "SEPARATE NO GAS PIPING FROM NO ACTIVE GAS SERVICE BEFORE YOU FILE",
+          "tag": "a",
+          "href": "/no-gas-vs-no-active-gas-service/",
+          "id": "",
+          "outcome": {
+            "url": "/no-gas-vs-no-active-gas-service/",
+            "title": "Separate no gas piping from no active gas service before you file",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE 2026 TIMING PAGE WHEN THE BUILDING MAY BE IN THE ACTIVE CYCLE",
+          "tag": "a",
+          "href": "/2026-deadline/",
+          "id": "",
+          "outcome": {
+            "url": "/2026-deadline/",
+            "title": "Use the 2026 timing page when the building may be in the active cycle",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    },
+    "/filing-next-step/": {
+      "total": 21,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROOT",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "VERDICT ENGINE",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "GET HELP WITH THIS FILING STEP",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/filing-next-step/",
+            "intent": "filing_help"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER FIRST",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "PERIODIC GAS PIPING SYSTEM INSPECTIONS",
+          "tag": "a",
+          "href": "https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page",
+          "id": "",
+          "outcome": {
+            "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page",
+            "title": "Gas Piping Inspection - Buildings"
+          }
+        },
+        {
+          "text": "LOCAL LAW 152 FREQUENTLY ASKED QUESTIONS",
+          "tag": "a",
+          "href": "https://www.nyc.gov/site/buildings/property-or-business-owner/ll152-faqs.page",
+          "id": "",
+          "outcome": {
+            "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/ll152-faqs.page",
+            "title": "ll152-faqs"
+          }
+        },
+        {
+          "text": "GAS PIPING SYSTEM INSPECTION CERTIFICATION",
+          "tag": "a",
+          "href": "https://portal.311.nyc.gov/article/?kanumber=KA-03353",
+          "id": "",
+          "outcome": {
+            "url": "https://portal.311.nyc.gov/article/?kanumber=KA-03353",
+            "title": "Gas Piping System Inspection Certification · NYC311"
+          }
+        },
+        {
+          "text": "SEPARATE NO GAS PIPING FROM NO ACTIVE GAS SERVICE BEFORE YOU FILE",
+          "tag": "a",
+          "href": "/no-gas-vs-no-active-gas-service/",
+          "id": "",
+          "outcome": {
+            "url": "/no-gas-vs-no-active-gas-service/",
+            "title": "Separate no gas piping from no active gas service before you file",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE AFTER-INSPECTION ROUTE WHEN GPS1 AND GPS2 TIMING BECOMES THE BLOCKER",
+          "tag": "a",
+          "href": "/after-inspection-gps1-gps2/",
+          "id": "",
+          "outcome": {
+            "url": "/after-inspection-gps1-gps2/",
+            "title": "Use the after-inspection route when GPS1 and GPS2 timing becomes the blocker",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE PENALTY, WAIVER, AND EXTENSION PAGE WHEN NOTHING WAS FILED ON TIME",
+          "tag": "a",
+          "href": "/extension-penalty-waiver/",
+          "id": "",
+          "outcome": {
+            "url": "/extension-penalty-waiver/",
+            "title": "Use the penalty, waiver, and extension page when nothing was filed on time",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    },
+    "/no-gas-vs-no-active-gas-service/": {
+      "total": 21,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROOT",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "VERDICT ENGINE",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "GET CERTIFICATION HELP FOR THIS PATH",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/no-gas-vs-no-active-gas-service/",
+            "intent": "certification_help"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER FIRST",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "PERIODIC GAS PIPING SYSTEM INSPECTIONS",
+          "tag": "a",
+          "href": "https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page",
+          "id": "",
+          "outcome": {
+            "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page",
+            "title": "Gas Piping Inspection - Buildings"
+          }
+        },
+        {
+          "text": "FOLLOW UP #7 – LOCAL LAW 152 OF 2016",
+          "tag": "a",
+          "href": "https://www.nyc.gov/assets/buildings/pdf/ll152follup7-su.pdf",
+          "id": "",
+          "outcome": {
+            "url": ":",
+            "title": ""
+          }
+        },
+        {
+          "text": "1 RCNY 103-10 PROMULGATION DETAILS",
+          "tag": "a",
+          "href": "https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-10_prom_details_date.pdf",
+          "id": "",
+          "outcome": {
+            "url": ":",
+            "title": ""
+          }
+        },
+        {
+          "text": "USE THE FILING-NEXT-STEP ROUTE WHEN THE BUILDING SEEMS COVERED",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE PENALTY, WAIVER, AND EXTENSION PAGE WHEN NOTHING WAS FILED ON TIME",
+          "tag": "a",
+          "href": "/extension-penalty-waiver/",
+          "id": "",
+          "outcome": {
+            "url": "/extension-penalty-waiver/",
+            "title": "Use the penalty, waiver, and extension page when nothing was filed on time",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE AFTER-INSPECTION ROUTE WHEN GPS1 AND GPS2 TIMING BECOMES THE BLOCKER",
+          "tag": "a",
+          "href": "/after-inspection-gps1-gps2/",
+          "id": "",
+          "outcome": {
+            "url": "/after-inspection-gps1-gps2/",
+            "title": "Use the after-inspection route when GPS1 and GPS2 timing becomes the blocker",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    },
+    "/extension-penalty-waiver/": {
+      "total": 21,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROOT",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "VERDICT ENGINE",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "REVIEW WAIVER OR LATE-FILING OPTIONS",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/extension-penalty-waiver/",
+            "intent": "filing_help"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER FIRST",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "VIOLATIONS FOR FAILURE TO SUBMIT GAS PIPING SYSTEM PERIODIC INSPECTION CERTIFICATION FOR CYCLE 2",
+          "tag": "a",
+          "href": "https://www.nyc.gov/assets/buildings/pdf/gps-cycle2-sn.pdf",
+          "id": "",
+          "outcome": {
+            "url": ":",
+            "title": ""
+          }
+        },
+        {
+          "text": "FOLLOW UP #7 – LOCAL LAW 152 OF 2016",
+          "tag": "a",
+          "href": "https://www.nyc.gov/assets/buildings/pdf/ll152follup7-su.pdf",
+          "id": "",
+          "outcome": {
+            "url": ":",
+            "title": ""
+          }
+        },
+        {
+          "text": "1 RCNY 103-10 PROMULGATION DETAILS",
+          "tag": "a",
+          "href": "https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-10_prom_details_date.pdf",
+          "id": "",
+          "outcome": {
+            "url": ":",
+            "title": ""
+          }
+        },
+        {
+          "text": "USE THE FILING-NEXT-STEP ROUTE WHEN THE BUILDING SEEMS COVERED",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE AFTER-INSPECTION ROUTE WHEN GPS1 AND GPS2 TIMING BECOMES THE BLOCKER",
+          "tag": "a",
+          "href": "/after-inspection-gps1-gps2/",
+          "id": "",
+          "outcome": {
+            "url": "/after-inspection-gps1-gps2/",
+            "title": "Use the after-inspection route when GPS1 and GPS2 timing becomes the blocker",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE 2026 TIMING PAGE WHEN THE BUILDING MAY BE IN THE ACTIVE CYCLE",
+          "tag": "a",
+          "href": "/2026-deadline/",
+          "id": "",
+          "outcome": {
+            "url": "/2026-deadline/",
+            "title": "Use the 2026 timing page when the building may be in the active cycle",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    },
+    "/after-inspection-gps1-gps2/": {
+      "total": 21,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROOT",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "VERDICT ENGINE",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "GET GPS1 AND GPS2 FILING HELP",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/after-inspection-gps1-gps2/",
+            "intent": "lmp_help"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER FIRST",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "PERIODIC GAS PIPING SYSTEM INSPECTIONS",
+          "tag": "a",
+          "href": "https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page",
+          "id": "",
+          "outcome": {
+            "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page",
+            "title": "Gas Piping Inspection - Buildings"
+          }
+        },
+        {
+          "text": "LOCAL LAW 152 FREQUENTLY ASKED QUESTIONS",
+          "tag": "a",
+          "href": "https://www.nyc.gov/site/buildings/property-or-business-owner/ll152-faqs.page",
+          "id": "",
+          "outcome": {
+            "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/ll152-faqs.page",
+            "title": "ll152-faqs"
+          }
+        },
+        {
+          "text": "1 RCNY 103-10 PROMULGATION DETAILS",
+          "tag": "a",
+          "href": "https://www.nyc.gov/assets/buildings/rules/1_RCNY_103-10_prom_details_date.pdf",
+          "id": "",
+          "outcome": {
+            "url": ":",
+            "title": ""
+          }
+        },
+        {
+          "text": "USE THE FILING-NEXT-STEP ROUTE WHEN THE BUILDING SEEMS COVERED",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE PENALTY, WAIVER, AND EXTENSION PAGE WHEN NOTHING WAS FILED ON TIME",
+          "tag": "a",
+          "href": "/extension-penalty-waiver/",
+          "id": "",
+          "outcome": {
+            "url": "/extension-penalty-waiver/",
+            "title": "Use the penalty, waiver, and extension page when nothing was filed on time",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CORRECTED CERTIFICATION SUPPORT ROUTE",
+          "tag": "a",
+          "href": "/corrected-certification/",
+          "id": "",
+          "outcome": {
+            "url": "/corrected-certification/",
+            "title": "Corrected certification support route",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    },
+    "/2026-deadline/": {
+      "total": 20,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROOT",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "VERDICT ENGINE",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECK THIS BUILDING'S NEXT STEP",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/2026-deadline/",
+            "intent": "filing_help"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER FIRST",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "PERIODIC GAS PIPING SYSTEM INSPECTIONS",
+          "tag": "a",
+          "href": "https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page",
+          "id": "",
+          "outcome": {
+            "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page",
+            "title": "Gas Piping Inspection - Buildings"
+          }
+        },
+        {
+          "text": "VIOLATIONS FOR FAILURE TO SUBMIT GAS PIPING SYSTEM PERIODIC INSPECTION CERTIFICATION FOR CYCLE 2",
+          "tag": "a",
+          "href": "https://www.nyc.gov/assets/buildings/pdf/gps-cycle2-sn.pdf",
+          "id": "",
+          "outcome": {
+            "url": ":",
+            "title": ""
+          }
+        },
+        {
+          "text": "RUN A LIKELY LL152 VERDICT BEFORE YOU PICK THE FILING PATH",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE FILING-NEXT-STEP ROUTE WHEN THE BUILDING SEEMS COVERED",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE PENALTY, WAIVER, AND EXTENSION PAGE WHEN NOTHING WAS FILED ON TIME",
+          "tag": "a",
+          "href": "/extension-penalty-waiver/",
+          "id": "",
+          "outcome": {
+            "url": "/extension-penalty-waiver/",
+            "title": "Use the penalty, waiver, and extension page when nothing was filed on time",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    },
+    "/about/": {
+      "total": 18,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROOT",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "VERDICT ENGINE",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/about/",
+            "intent": "filing_help"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER FIRST",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN A LIKELY LL152 VERDICT BEFORE YOU PICK THE FILING PATH",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOW THE LL152 VERDICT FLOW IS BUILT",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "THIS SITE IS NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    },
+    "/methodology/": {
+      "total": 18,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROOT",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "VERDICT ENGINE",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/methodology/",
+            "intent": "filing_help"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER FIRST",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NYC LL152 VERDICT AND FILING-NEXT-STEP GUIDANCE",
+          "tag": "a",
+          "href": "/about/",
+          "id": "",
+          "outcome": {
+            "url": "/about/",
+            "title": "NYC LL152 verdict and filing-next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN A LIKELY LL152 VERDICT BEFORE YOU PICK THE FILING PATH",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE 2026 TIMING PAGE WHEN THE BUILDING MAY BE IN THE ACTIVE CYCLE",
+          "tag": "a",
+          "href": "/2026-deadline/",
+          "id": "",
+          "outcome": {
+            "url": "/2026-deadline/",
+            "title": "Use the 2026 timing page when the building may be in the active cycle",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    },
+    "/contact/": {
+      "total": 17,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROOT",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "VERDICT ENGINE",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "SEND THIS BUILDING FOR REVIEW",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/contact/",
+            "intent": "filing_help"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER FIRST",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN A LIKELY LL152 VERDICT BEFORE YOU PICK THE FILING PATH",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE FILING-NEXT-STEP ROUTE WHEN THE BUILDING SEEMS COVERED",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    },
+    "/not-government-affiliated/": {
+      "total": 17,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROOT",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "VERDICT ENGINE",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/not-government-affiliated/",
+            "intent": "filing_help"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER FIRST",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NYC LL152 VERDICT AND FILING-NEXT-STEP GUIDANCE",
+          "tag": "a",
+          "href": "/about/",
+          "id": "",
+          "outcome": {
+            "url": "/about/",
+            "title": "NYC LL152 verdict and filing-next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOW THE LL152 VERDICT FLOW IS BUILT",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    },
+    "/corrected-certification/": {
+      "total": 16,
+      "audited": [
+        {
+          "text": "LL152.ENGINE",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROUTES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "space_dashboard HOME",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "gavel RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "account_tree ROUTE GUIDES",
+          "tag": "a",
+          "href": "/filing-next-step/",
+          "id": "",
+          "outcome": {
+            "url": "/filing-next-step/",
+            "title": "Use the filing-next-step route when the building seems covered",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "RUN CHECKER",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "ROOT",
+          "tag": "a",
+          "href": "/",
+          "id": "",
+          "outcome": {
+            "url": "/",
+            "title": "NYC LL152 checker and filing next-step guidance",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "VERDICT ENGINE",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "GET HELP WITH THIS FILING STEP",
+          "tag": "button",
+          "href": null,
+          "id": "",
+          "outcome": {
+            "title": "Send this building for review",
+            "summary": "Use this when the blocker is already specific and you need help confirming the next LL152 step.",
+            "routePath": "/corrected-certification/",
+            "intent": "filing_help"
+          }
+        },
+        {
+          "text": "RUN THE CHECKER FIRST",
+          "tag": "a",
+          "href": "/ll152-checker/",
+          "id": "",
+          "outcome": {
+            "url": "/ll152-checker/",
+            "title": "Run a likely LL152 verdict before you pick the filing path",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "USE THE AFTER-INSPECTION ROUTE WHEN GPS1 AND GPS2 TIMING BECOMES THE BLOCKER",
+          "tag": "a",
+          "href": "/after-inspection-gps1-gps2/",
+          "id": "",
+          "outcome": {
+            "url": "/after-inspection-gps1-gps2/",
+            "title": "Use the after-inspection route when GPS1 and GPS2 timing becomes the blocker",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "METHODOLOGY",
+          "tag": "a",
+          "href": "/methodology/",
+          "id": "",
+          "outcome": {
+            "url": "/methodology/",
+            "title": "How the LL152 verdict flow is built",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "NOT GOVERNMENT-AFFILIATED",
+          "tag": "a",
+          "href": "/not-government-affiliated/",
+          "id": "",
+          "outcome": {
+            "url": "/not-government-affiliated/",
+            "title": "This site is not government-affiliated",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        },
+        {
+          "text": "CONTACT",
+          "tag": "a",
+          "href": "/contact/",
+          "id": "",
+          "outcome": {
+            "url": "/contact/",
+            "title": "Send the building details you already have",
+            "bodyPreview": "LL152.ENGINE NYC COMPLIANCE DECISION LEDGER HOME CHECKER ROUTES GUIDE LIVE account_tree sync settings SOVEREIGN V.2.6.0 STABLE space_dashboard HOME gavel RUN CH"
+          }
+        }
+      ]
+    }
+  },
+  "special": {
+    "checker": {
+      "invalidState": {
+        "status": "Add a district, DOF class, building profile, or gas-status detail before you run the verdict.",
+        "apiCalls": 0
+      },
+      "validSubmitStatus": 200,
+      "validState": {
+        "confidence": "Medium confidence. The likely path is clear, but one core property input is still missing.",
+        "nextStep": "Prepare the inspection, GPS1, and GPS2 filing path.",
+        "routeHref": "/filing-next-step/",
+        "leadLabel": "Get LL152 inspection help"
+      },
+      "leadSubmitStatus": 200
+    }
+  }
+}

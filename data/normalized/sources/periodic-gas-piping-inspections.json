@@ -1,0 +1,16 @@
+{
+  "sourceId": "periodic-gas-piping-inspections",
+  "title": "Periodic Gas Piping System Inspections",
+  "sourceType": "dob_page",
+  "status": "current",
+  "verifiedAt": "2026-04-14",
+  "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/gas-piping-inspections.page",
+  "keyFacts": [
+    "LL152 applies to all buildings except one- and two-family homes and other buildings in Occupancy Group R-3.",
+    "DOB lists exempt DOF classes including A0-A9, B1-B3, B9, CM, M3 with 2 or fewer permanent dwelling units, M4 with 20 or fewer occupants, N2, S0-S2, and V.",
+    "Cycle 2 sub-cycle C covers community districts 4, 6, 8, 9, and 16 from January 1, 2026 through December 31, 2026.",
+    "If the building has no gas piping, a certification must be submitted and no further LL152 action is necessary unless gas piping is later installed.",
+    "GPS1 is due from the LMP to the owner within 30 days of inspection and GPS2 is due from the owner to DOB within 60 days.",
+    "If the building has gas piping but no active gas service and no appliances connected, the owner must submit utility and owner statements through the DOB portal."
+  ]
+}

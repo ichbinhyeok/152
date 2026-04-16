@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-04-14T08:14:29.053Z",
+  "baseUrl": "http://localhost:8095",
+  "pages": {
+    "desktop": {
+      "/": {
+        "horizontalOverflow": 0,
+        "viewportLeaks": [],
+        "clippedText": [],
+        "undersizedTapTargets": [],
+        "consoleEvents": [],
+        "pageErrors": []
+      },
+      "/ll152-checker/": {
+        "horizontalOverflow": 0,
+        "viewportLeaks": [],
+        "clippedText": [],
+        "undersizedTapTargets": [],
+        "consoleEvents": [],
+        "pageErrors": []
+      },
+      "/filing-next-step/": {
+        "horizontalOverflow": 0,
+        "viewportLeaks": [],
+        "clippedText": [],
+        "undersizedTapTargets": [],
+        "consoleEvents": [],
+        "pageErrors": []
+      }
+    },
+    "iphone-se": {
+      "/": {
+        "horizontalOverflow": 0,
+        "viewportLeaks": [],
+        "clippedText": [],
+        "undersizedTapTargets": [],
+        "consoleEvents": [],
+        "pageErrors": []
+      },
+      "/ll152-checker/": {
+        "horizontalOverflow": 0,
+        "viewportLeaks": [],
+        "clippedText": [],
+        "undersizedTapTargets": [],
+        "consoleEvents": [],
+        "pageErrors": []
+      },
+      "/filing-next-step/": {
+        "horizontalOverflow": 0,
+        "viewportLeaks": [],
+        "clippedText": [],
+        "undersizedTapTargets": [],
+        "consoleEvents": [],
+        "pageErrors": []
+      }
+    }
+  }
+}

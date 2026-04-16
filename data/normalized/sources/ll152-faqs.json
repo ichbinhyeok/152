@@ -1,0 +1,15 @@
+{
+  "sourceId": "ll152-faqs",
+  "title": "Local Law 152 Frequently Asked Questions",
+  "sourceType": "dob_page",
+  "status": "current",
+  "verifiedAt": "2026-04-14",
+  "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/ll152-faqs.page",
+  "keyFacts": [
+    "Leak surveys terminate at tenant spaces, but inspectors still take readings at entries to those spaces.",
+    "Unsafe and hazardous conditions such as gas leaks, illegal connections, and non-code-compliant installations require immediate notification to the utility, DOB, and the owner.",
+    "GPS1 is delivered within 30 days of inspection and GPS2 is submitted by the owner within 60 days through the DOB portal.",
+    "If a different plumber certifies corrections, that plumber must conduct another inspection.",
+    "Owners who cannot complete an inspection by the cycle deadline may request one 180-day extension per cycle."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-04-14",
+  "activeCycleYear": 2026,
+  "activeSubCycle": "C",
+  "editorialPromise": "Explain the likely next filing step without overstating legal certainty.",
+  "coreScenarios": [
+    "need_due_cycle_verdict",
+    "need_filing_next_step",
+    "need_no_gas_split",
+    "need_lmp_help"
+  ],
+  "sourceIds": [
+    "periodic-gas-piping-inspections",
+    "ll152-faqs",
+    "ll152-follow-up-7",
+    "cycle-2-service-notice",
+    "nyc311-gps2-certification",
+    "rcny-103-10"
+  ],
+  "routeGuardrails": [
+    "Always distinguish no gas piping from no active gas service.",
+    "Use current DOB guidance before treating a timing note as final.",
+    "Hold district overlays as support-layer until demand proves they add value.",
+    "Treat one- and two-family exemptions as property-profile questions, not as loose building-type guesses.",
+    "Use the Cycle 2 district map and Follow Up #7 changes in all 2026 verdict flows."
+  ],
+  "currentFacts": [
+    "Cycle 2 Sub-cycle C covers community districts 4, 6, 8, 9, and 16 in calendar year 2026.",
+    "Certification that a building has no gas piping is a one-time submission.",
+    "Documentation for a building with no active gas service is required every cycle.",
+    "The current rule text sets the civil penalty at $1500 for a 3-family building and $5000 for all other buildings."
+  ]
+}

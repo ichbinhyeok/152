@@ -1,0 +1,11 @@
+waiver_ground,notes
+new_owner,Recorded deed showing bona fide transfer after penalties were incurred.
+government_ownership,Official documentation showing government ownership during the relevant period.
+bankruptcy,Court order signed by a bankruptcy judge.
+state_of_emergency,Declared emergency that prevented inspection or filing.
+building_conversion_or_misclassification,Records showing R-3 occupancy prior to the filing deadline.
+demolished_building,Full demolition signed off before the cycle or a new building permit for the property.
+sealed_or_vacated_building,Government or court order sealing or vacating the entire building before the deadline.
+no_gas_piping_work_in_progress,Proof that gas piping removal was in progress and projected to finish before the deadline but was delayed by unforeseen circumstances.
+no_active_gas_service,Required documentation showing the building had no gas service and no appliance connected on the deadline date.
+gas_work_in_progress,Permitted gas work in progress for replacement, installation, or major correction plus required evidence.

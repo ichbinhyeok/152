@@ -1,0 +1,14 @@
+rule_key,rule_note
+no_gas_split,Always distinguish no gas piping from no active gas service before advising on the next filing step.
+follow_up_7,2026 guidance should reflect the Follow Up #7 distinctions in the public verdict flow.
+coverage_scope,The primary DOB page says LL152 applies to all buildings except one- and two-family homes and other buildings in Occupancy Group R-3.
+sub_cycle_c_2026,Community districts 4|6|8|9|16 are Cycle 2 Sub-cycle C with a 2026 inspection window.
+gps1_timing,The LMP must give the owner the GPS1 report within 30 days of inspection.
+gps2_timing,The owner must submit GPS2 within 60 days of inspection.
+correction_timing,Correction certification is generally due within 120 days of inspection or 180 days when additional time was requested.
+one_time_no_gas_piping,Certification that the building has no gas piping is a one-time submission and can come from a utility company.
+every_cycle_no_active_gas_service,Documentation for a building with gas piping but no active gas service is required every cycle.
+two_day_notification,Inspectors must notify DOB at least two days before the inspection.
+fees_later_2026,Follow Up #7 says new fees exist but DOB will not require payment until the certifications are submitted in DOB NOW Safety later in 2026.
+penalty_split,The rule and Cycle 2 service notice set a $1500 civil penalty for a 3-family building and $5000 for all other buildings.
+waiver_categories,Rule 1 RCNY 103-10(h) includes waiver grounds for new owner, government ownership, bankruptcy, state of emergency, building conversion or misclassification, demolished building, sealed or vacated building, no gas piping work in progress, no active gas service, and gas work in progress.
