@@ -2128,15 +2128,38 @@ li {
 }
 
 .directive-hero {
+    position: relative;
+    isolation: isolate;
     background-color: #10233d;
-    background-image:
+    color: var(--white);
+}
+
+.directive-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background:
         linear-gradient(180deg, rgba(16, 35, 61, 0.9) 0%, rgba(16, 35, 61, 0.72) 52%, rgba(16, 35, 61, 0.42) 100%),
         radial-gradient(circle at 88% 18%, rgba(199, 138, 45, 0.18), transparent 26%),
-        radial-gradient(circle at 10% 16%, rgba(47, 111, 237, 0.22), transparent 30%),
-        var(--hero-image, none);
-    background-size: cover;
-    background-position: center;
-    color: var(--white);
+        radial-gradient(circle at 10% 16%, rgba(47, 111, 237, 0.22), transparent 30%);
+}
+
+.directive-hero__image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+
+.directive-hero__meta,
+.directive-hero h1,
+.directive-hero__summary {
+    position: relative;
+    z-index: 2;
 }
 
 .action-panel--quiet {

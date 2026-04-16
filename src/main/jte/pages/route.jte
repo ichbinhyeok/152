@@ -32,7 +32,8 @@
         <script type="application/ld+json">
             $unsafe{webPageStructuredData}
         </script>
-        <section class="directive-hero ${"trust".equals(page.family()) ? "directive-hero--trust" : ""}" style="--hero-image:url('${page.imageUrl()}');">
+        <section class="directive-hero ${"trust".equals(page.family()) ? "directive-hero--trust" : ""}">
+            <img class="directive-hero__image" src="${page.imageUrl()}" alt="${page.imageAlt()}">
             <div class="directive-hero__meta">
                 <div>
                     <p class="eyebrow">${page.eyebrow()}</p>

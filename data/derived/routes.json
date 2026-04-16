@@ -435,7 +435,9 @@
         "relatedPaths":  [
                              "/no-gas-vs-no-active-gas-service/",
                              "/after-inspection-gps1-gps2/",
-                             "/extension-penalty-waiver/"
+                             "/extension-penalty-waiver/",
+                             "/gas-shutoff-but-piping-remains/",
+                             "/gps2-correction-after-inspection/"
                          ]
     },
     {
@@ -484,7 +486,8 @@
                              "/ll152-no-active-gas-service/",
                              "/filing-next-step/",
                              "/extension-penalty-waiver/",
-                             "/after-inspection-gps1-gps2/"
+                             "/after-inspection-gps1-gps2/",
+                             "/gas-shutoff-but-piping-remains/"
                          ]
     },
     {
@@ -603,7 +606,8 @@
         "relatedPaths":  [
                              "/no-gas-vs-no-active-gas-service/",
                              "/ll152-no-gas-piping-certification/",
-                             "/filing-next-step/"
+                             "/filing-next-step/",
+                             "/gas-shutoff-but-piping-remains/"
                          ]
     },
     {
@@ -639,7 +643,9 @@
         "relatedPaths":  [
                              "/filing-next-step/",
                              "/after-inspection-gps1-gps2/",
-                             "/2026-deadline/"
+                             "/2026-deadline/",
+                             "/missed-ll152-deadline/",
+                             "/one-two-family-notice-conflict/"
                          ]
     },
     {
@@ -687,7 +693,7 @@
         "eyebrow":  "Timing guide",
         "title":  "LL152 2026 deadline by community district",
         "summary":  "This page is for owners who think 2026 is the live timing window and need a next-step framing before they verify the exact sub-cycle or filing date against the current DOB notice.",
-        "hero":  "Treat this page as the timing route for active-cycle intent, not as a substitute for the live DOB notice.",
+        "hero":  "Treat this page as the timing guide for active-cycle intent, not as a substitute for the live DOB notice.",
         "imageUrl":  "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format\u0026fit=crop\u0026w=1600\u0026q=80",
         "imageAlt":  "Wide New York skyline with high-rise buildings.",
         "ctaLabel":  "Send case details",
@@ -709,7 +715,244 @@
         "relatedPaths":  [
                              "/ll152-checker/",
                              "/filing-next-step/",
-                             "/extension-penalty-waiver/"
+                             "/extension-penalty-waiver/",
+                             "/mixed-use-building-coverage/",
+                             "/one-two-family-notice-conflict/"
+                         ]
+    },
+    {
+        "id":  "missed-ll152-deadline",
+        "slug":  "missed-ll152-deadline",
+        "path":  "/missed-ll152-deadline/",
+        "family":  "support",
+        "phase":  "support",
+        "indexStatus":  "noindex",
+        "eyebrow":  "Case guide",
+        "title":  "Missed LL152 deadline: what to do before penalty gets worse",
+        "summary":  "Use this case page when the building should have filed already and the real question is whether to fix the missed step, challenge the notice, or prepare a waiver request.",
+        "hero":  "A missed LL152 deadline is not just a payment problem. First identify the filing or correction step that was missed, then decide whether penalty, waiver, or challenge is the real next move.",
+        "imageUrl":  "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format\\u0026fit=crop\\u0026w=1600\\u0026q=80",
+        "imageAlt":  "Busy New York street with yellow taxis and mid-rise buildings.",
+        "ctaLabel":  "Send case details",
+        "ctaIntent":  "filing_help",
+        "sections":  [
+                         {
+                             "title":  "Start here when",
+                             "paragraphs":  [
+                                                "Use this page when the building looks covered, the original due window likely passed, and you still do not know whether the missed step was inspection, GPS2, correction certification, or something else.",
+                                                "The first job is to identify what was not filed or what was filed late before you decide whether payment, waiver, or challenge is the better move."
+                                            ],
+                             "bullets":  [
+                                             "Confirm the notice date and the community district",
+                                             "List what has already been filed and what has not",
+                                             "Keep BIN, BBL, and any DOB notice together before you respond"
+                                         ]
+                         },
+                         {
+                             "title":  "Do not assume",
+                             "paragraphs":  [
+                                                "The penalty answer can change with building type, gas status, exemption issues, and whether the city record itself is wrong.",
+                                                "Three-family buildings and misclassified properties can turn into very different next steps from a typical larger building."
+                                            ],
+                             "bullets":  [
+                                             "Do not treat every late case as the same $5,000 problem",
+                                             "Do not pay first if the property record still looks wrong",
+                                             "Do not skip the missed filing analysis just because the notice looks final"
+                                         ]
+                         }
+                     ],
+        "relatedPaths":  [
+                             "/extension-penalty-waiver/",
+                             "/filing-next-step/",
+                             "/2026-deadline/"
+                         ]
+    },
+    {
+        "id":  "gps2-correction-after-inspection",
+        "slug":  "gps2-correction-after-inspection",
+        "path":  "/gps2-correction-after-inspection/",
+        "family":  "support",
+        "phase":  "support",
+        "indexStatus":  "noindex",
+        "eyebrow":  "Case guide",
+        "title":  "GPS2 correction after inspection: what gets filed next",
+        "summary":  "Use this case page when the inspection already happened and the open issue is GPS2, correction timing, or how to document follow-up work before deadlines stack.",
+        "hero":  "After inspection, the hard part is often not the inspection itself. It is knowing whether GPS2 is ready, whether correction work is still open, and which deadline now matters most.",
+        "imageUrl":  "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format\\u0026fit=crop\\u0026w=1600\\u0026q=80",
+        "imageAlt":  "Tall Manhattan buildings lining a dense city corridor.",
+        "ctaLabel":  "Send case details",
+        "ctaIntent":  "lmp_help",
+        "sections":  [
+                         {
+                             "title":  "Use this page when",
+                             "paragraphs":  [
+                                                "Use this page when the inspection already happened but the next filing move is still unclear.",
+                                                "Typical confusion here is whether GPS2 can be submitted now, whether correction work still controls the timeline, or whether a follow-up certification deadline is already running."
+                                            ],
+                             "bullets":  [
+                                             "Inspection date is known but next filing owner is unclear",
+                                             "GPS1 was received but GPS2 is still open",
+                                             "Correction work may still be active after inspection"
+                                         ]
+                         },
+                         {
+                             "title":  "What usually changes the answer",
+                             "paragraphs":  [
+                                                "The answer often turns on whether the inspection resulted in safe conditions, correction conditions, or a missed filing entirely.",
+                                                "Keep the inspection date, the LMP output, and any correction scope together before you act."
+                                            ],
+                             "bullets":  [
+                                             "Do not treat GPS2 and correction certification as the same filing",
+                                             "Do not assume the clock starts from the day you read the notice",
+                                             "Do not separate the inspection outcome from the filing deadline"
+                                         ]
+                         }
+                     ],
+        "relatedPaths":  [
+                             "/after-inspection-gps1-gps2/",
+                             "/filing-next-step/",
+                             "/corrected-certification/"
+                         ]
+    },
+    {
+        "id":  "mixed-use-building-coverage",
+        "slug":  "mixed-use-building-coverage",
+        "path":  "/mixed-use-building-coverage/",
+        "family":  "support",
+        "phase":  "support",
+        "indexStatus":  "noindex",
+        "eyebrow":  "Case guide",
+        "title":  "Mixed-use building LL152 coverage: what usually decides it",
+        "summary":  "Use this case page when a building has residential and commercial use and the main question is whether the official property record still puts it on an LL152 filing path.",
+        "hero":  "Mixed-use labels alone do not settle LL152. The practical question is what DOB and DOF records say the building is, whether the property is exempt, and which filing step follows from that record.",
+        "imageUrl":  "https://images.unsplash.com/photo-1465447142348-e9952c393450?auto=format\\u0026fit=crop\\u0026w=1600\\u0026q=80",
+        "imageAlt":  "Mixed-use New York block with storefronts below residential windows.",
+        "ctaLabel":  "Send case details",
+        "ctaIntent":  "filing_help",
+        "sections":  [
+                         {
+                             "title":  "Start with the record",
+                             "paragraphs":  [
+                                                "Use this page when a building looks mixed-use in real life and you do not know whether that helps, hurts, or changes LL152 coverage.",
+                                                "The practical answer usually comes from the official property class, BIN, BBL, and the record DOB is actually using for the notice or filing path."
+                                            ],
+                             "bullets":  [
+                                             "Check DOF class before relying on a broad building label",
+                                             "Keep BIN and BBL ready when records conflict",
+                                             "Treat street-level use and legal class as separate facts"
+                                         ]
+                         },
+                         {
+                             "title":  "What makes mixed-use cases go wrong",
+                             "paragraphs":  [
+                                                "Many owners assume the street appearance or lease mix answers the question by itself.",
+                                                "The better question is whether the official property record still points toward coverage, exemption, or a correction to the city record."
+                                            ],
+                             "bullets":  [
+                                             "Do not assume mixed-use means automatic LL152 coverage",
+                                             "Do not assume residential units mean automatic exemption either",
+                                             "Do not ignore a notice conflict just because the building label sounds obvious"
+                                         ]
+                         }
+                     ],
+        "relatedPaths":  [
+                             "/filing-next-step/",
+                             "/2026-deadline/",
+                             "/one-two-family-notice-conflict/"
+                         ]
+    },
+    {
+        "id":  "gas-shutoff-but-piping-remains",
+        "slug":  "gas-shutoff-but-piping-remains",
+        "path":  "/gas-shutoff-but-piping-remains/",
+        "family":  "support",
+        "phase":  "support",
+        "indexStatus":  "noindex",
+        "eyebrow":  "Case guide",
+        "title":  "Gas shut off but piping remains: LL152 no active gas service case",
+        "summary":  "Use this case page when the building no longer receives gas service but piping is still in place and you need the recurring documentation path, not the one-time no-piping certification.",
+        "hero":  "Utility shutoff does not automatically move a building to the no-gas-piping side. If piping still exists, this usually stays a no-active-gas-service case and the documentation repeats by cycle.",
+        "imageUrl":  "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?auto=format\\u0026fit=crop\\u0026w=1600\\u0026q=80",
+        "imageAlt":  "Row of older city buildings with visible mechanical systems and facades.",
+        "ctaLabel":  "Send case details",
+        "ctaIntent":  "filing_help",
+        "sections":  [
+                         {
+                             "title":  "Use this page when",
+                             "paragraphs":  [
+                                                "Use this page when the utility shut off service but nobody can honestly say the building has no gas piping anywhere.",
+                                                "That usually means the building still belongs on the no-active-gas-service side until the piping condition truly changes."
+                                            ],
+                             "bullets":  [
+                                             "Service is off but piping still exists",
+                                             "Utility paperwork exists but piping removal does not",
+                                             "The question is recurring documentation, not one-time certification"
+                                         ]
+                         },
+                         {
+                             "title":  "What to gather before filing",
+                             "paragraphs":  [
+                                                "Keep the utility shutoff record, the building reference, and the owner statement together before you upload or submit anything.",
+                                                "This case goes wrong when a shutoff letter is treated as proof that piping no longer exists."
+                                            ],
+                             "bullets":  [
+                                             "Utility documentation showing shutdown or deactivation",
+                                             "Owner statement that no gas appliances remain connected",
+                                             "Any facts showing piping still exists in the system"
+                                         ]
+                         }
+                     ],
+        "relatedPaths":  [
+                             "/ll152-no-active-gas-service/",
+                             "/no-gas-vs-no-active-gas-service/",
+                             "/filing-next-step/"
+                         ]
+    },
+    {
+        "id":  "one-two-family-notice-conflict",
+        "slug":  "one-two-family-notice-conflict",
+        "path":  "/one-two-family-notice-conflict/",
+        "family":  "support",
+        "phase":  "support",
+        "indexStatus":  "noindex",
+        "eyebrow":  "Case guide",
+        "title":  "One- or two-family building got an LL152 notice: what to check first",
+        "summary":  "Use this case page when a building looks exempt as a one- or two-family property but DOB or DOF records still point you toward an LL152 notice, filing, or penalty.",
+        "hero":  "When an exempt-looking building still gets an LL152 notice, the first job is not to pay or file blindly. It is to confirm the official class, the record DOB is using, and whether the notice is aimed at the wrong property profile.",
+        "imageUrl":  "https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?auto=format\\u0026fit=crop\\u0026w=1600\\u0026q=80",
+        "imageAlt":  "Low-rise residential houses on a New York neighborhood street.",
+        "ctaLabel":  "Send case details",
+        "ctaIntent":  "filing_help",
+        "sections":  [
+                         {
+                             "title":  "Check the record before acting",
+                             "paragraphs":  [
+                                                "Use this page when the building looks like a one- or two-family property but the city notice still points you into LL152.",
+                                                "The practical question is whether the official DOF class, BIN, or BBL is wrong, outdated, or tied to a different property record than you expected."
+                                            ],
+                             "bullets":  [
+                                             "Check DOF class before paying or filing",
+                                             "Compare the notice to BIN and BBL",
+                                             "Keep any exemption clue tied to the official property record"
+                                         ]
+                         },
+                         {
+                             "title":  "What to keep ready",
+                             "paragraphs":  [
+                                                "Record conflicts are easier to sort out when the property identifiers, the notice itself, and the claimed exemption basis are all in one place.",
+                                                "This is often a record-cleanup problem before it becomes a filing problem."
+                                            ],
+                             "bullets":  [
+                                             "Notice copy or violation reference",
+                                             "BIN, BBL, and property-class reference",
+                                             "Any city record or prior filing that supports exemption"
+                                         ]
+                         }
+                     ],
+        "relatedPaths":  [
+                             "/exempt-building-notification/",
+                             "/extension-penalty-waiver/",
+                             "/2026-deadline/"
                          ]
     },
     {

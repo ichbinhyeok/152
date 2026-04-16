@@ -138,6 +138,71 @@ public class RouteEnhancementService {
                     ),
                     List.of("periodic-gas-piping-inspections", "ll152-faqs", "rcny-103-10")
             );
+            case "missed-ll152-deadline" -> new RouteEnhancement(
+                    List.of(
+                            "Confirm what the building missed before you decide on payment, waiver, or challenge.",
+                            "Keep the notice date, BIN or BBL, and the community district together before you respond.",
+                            "Treat the penalty question as a filing-sequence problem first and a payment problem second."
+                    ),
+                    List.of(
+                            "You still do not know whether the missed step was inspection, GPS2, correction certification, or something else.",
+                            "The city notice may conflict with the property record or exemption facts.",
+                            "The building type or gas-status branch could still change the right response."
+                    ),
+                    List.of("cycle-2-service-notice", "periodic-gas-piping-inspections", "rcny-103-10")
+            );
+            case "gps2-correction-after-inspection" -> new RouteEnhancement(
+                    List.of(
+                            "Start with the inspection date because every after-inspection deadline runs from that point.",
+                            "Separate GPS2 submission from correction certification before you decide what is late.",
+                            "Keep the LMP output, correction scope, and filing owner together before you respond."
+                    ),
+                    List.of(
+                            "You do not yet know whether GPS2 is ready or whether correction work still controls the case.",
+                            "The inspection outcome still changes the filing path after inspection.",
+                            "The deadline may already be moving toward penalty or waiver handling."
+                    ),
+                    List.of("periodic-gas-piping-inspections", "nyc311-gps2-certification", "rcny-103-10")
+            );
+            case "mixed-use-building-coverage" -> new RouteEnhancement(
+                    List.of(
+                            "Check the official DOF class before relying on a broad mixed-use label.",
+                            "Keep BIN and BBL ready when the notice and the building story do not match.",
+                            "Treat storefront use, residential use, and legal property class as separate facts."
+                    ),
+                    List.of(
+                            "The building label sounds obvious, but the official property record is still unclear.",
+                            "The notice may be tied to a different class or property profile than expected.",
+                            "The next step still depends on whether the record points to coverage or exemption."
+                    ),
+                    List.of("periodic-gas-piping-inspections", "cycle-2-service-notice")
+            );
+            case "gas-shutoff-but-piping-remains" -> new RouteEnhancement(
+                    List.of(
+                            "Confirm that gas piping still exists before using the no-active-gas-service documentation path.",
+                            "Keep the utility shutoff record and owner statement together before filing anything.",
+                            "Do not let a shutoff letter stand in for proof that piping was removed."
+                    ),
+                    List.of(
+                            "Nobody can confirm whether gas piping still exists in the building.",
+                            "The shutoff record is clear, but the appliance or piping condition is not.",
+                            "The case could still flip between recurring documentation and a different filing path."
+                    ),
+                    List.of("periodic-gas-piping-inspections", "ll152-follow-up-7", "rcny-103-10")
+            );
+            case "one-two-family-notice-conflict" -> new RouteEnhancement(
+                    List.of(
+                            "Check DOF class, BIN, and BBL before paying or filing against a notice that may be wrong.",
+                            "Keep the exemption basis tied to the official record, not just to how the building looks.",
+                            "Treat this as a record-verification problem before you treat it as a live filing obligation."
+                    ),
+                    List.of(
+                            "The city notice and the property record still point in different directions.",
+                            "The claimed one- or two-family exemption depends on a record that has not been verified.",
+                            "A wrong assumption here could trigger the wrong filing, payment, or challenge."
+                    ),
+                    List.of("periodic-gas-piping-inspections", "cycle-2-service-notice")
+            );
             case "2026-deadline" -> new RouteEnhancement(
                     List.of(
                             "Verify the current community district before treating the 2026 window as final.",
