@@ -42,7 +42,7 @@ class PackagedDataFallbackTests {
     void packagedPagesRenderWithoutExternalDataRoot() throws Exception {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string(containsString("See the likely next filing step before you touch DOB NOW.")));
+                .andExpect(content().string(containsString("Know the filing path before DOB turns into guesswork.")));
 
         mockMvc.perform(get("/ll152-checker/"))
                 .andExpect(status().isOk())
