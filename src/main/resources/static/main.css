@@ -1240,6 +1240,51 @@ textarea:focus {
     text-transform: uppercase;
 }
 
+.source-briefs {
+    display: grid;
+    gap: 20px;
+}
+
+.source-brief + .source-brief {
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+}
+
+.source-brief__head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+.source-brief h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.source-brief h3 a {
+    color: var(--surface-strong);
+}
+
+.source-brief__meta {
+    color: var(--ink-faint);
+    font-family: "Roboto Mono", Consolas, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.source-brief__facts {
+    gap: 10px;
+}
+
+.source-brief__facts li {
+    color: var(--ink-soft);
+}
+
 .timeline-list {
     counter-reset: protocol-step;
 }
@@ -1593,6 +1638,14 @@ td {
 
     .protocol-summary__grid {
         grid-template-columns: 1fr;
+    }
+
+    .source-brief__head {
+        flex-direction: column;
+    }
+
+    .source-brief__meta {
+        white-space: normal;
     }
 
     .verdict-header h2 {

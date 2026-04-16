@@ -109,6 +109,35 @@
                     </article>
                 @endif
 
+                @if(!officialSources.isEmpty())
+                    <article class="protocol-summary">
+                        <div class="panel-heading">
+                            <p class="mono-label">Document basis</p>
+                            <h2>What the documents say</h2>
+                        </div>
+                        <div class="source-briefs">
+                            @for(var source : officialSources)
+                                <section class="source-brief">
+                                    <div class="source-brief__head">
+                                        <div>
+                                            <p class="mono-label">Official source</p>
+                                            <h3><a href="${source.url()}" target="_blank" rel="noopener">${source.title()}</a></h3>
+                                        </div>
+                                        <span class="source-brief__meta">Verified ${source.verifiedAt()}</span>
+                                    </div>
+                                    @if(!source.keyFacts().isEmpty())
+                                        <ul class="bullet-list source-brief__facts">
+                                            @for(var fact : source.keyFacts())
+                                                <li>${fact}</li>
+                                            @endfor
+                                        </ul>
+                                    @endif
+                                </section>
+                            @endfor
+                        </div>
+                    </article>
+                @endif
+
                 <article class="protocol-summary">
                     <div class="panel-heading">
                         <p class="mono-label">Decision basis</p>

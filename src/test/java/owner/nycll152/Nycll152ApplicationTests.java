@@ -241,11 +241,12 @@ class Nycll152ApplicationTests {
                 .andExpect(jsonPath("$.message").value("Active gas service can only be set after you confirm gas piping is present."));
     }
 
-    @Test
-    void routePageShowsOfficialSourceAnchors() throws Exception {
+	@Test
+	void routePageShowsOfficialSourceAnchors() throws Exception {
         mockMvc.perform(get("/filing-next-step/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string(containsString("Official city references")));
+                .andExpect(content().string(containsString("What the documents say")))
+                .andExpect(content().string(containsString("Periodic Gas Piping System Inspections")));
 	}
 
 	@Test
