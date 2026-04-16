@@ -149,7 +149,9 @@ class Nycll152ApplicationTests {
 	void indexingIsLockedByDefault() throws Exception {
 		mockMvc.perform(get("/"))
 				.andExpect(status().isOk())
-				.andExpect(header().string("X-Robots-Tag", "noindex, nofollow"));
+				.andExpect(header().string("X-Robots-Tag", "noindex, nofollow"))
+				.andExpect(header().string("Content-Security-Policy", containsString("script-src 'self' https://static.cloudflareinsights.com")))
+				.andExpect(header().string("Content-Security-Policy", containsString("connect-src 'self' https://cloudflareinsights.com")));
 
 		mockMvc.perform(get("/robots.txt"))
 				.andExpect(status().isOk())

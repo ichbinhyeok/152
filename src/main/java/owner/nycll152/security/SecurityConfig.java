@@ -60,9 +60,9 @@ public class SecurityConfig {
                     headers.contentSecurityPolicy(csp -> csp.policyDirectives(
                             "default-src 'self'; " +
                                     "img-src 'self' https://images.unsplash.com data:; " +
-                                    "script-src 'self'; " +
+                                    "script-src 'self' https://static.cloudflareinsights.com; " +
                                     "style-src 'self' https://fonts.googleapis.com; " +
-                                    "connect-src 'self'; " +
+                                    "connect-src 'self' https://cloudflareinsights.com; " +
                                     "font-src 'self' https://fonts.gstatic.com data:; " +
                                     "object-src 'none'; " +
                                     "base-uri 'self'; " +
