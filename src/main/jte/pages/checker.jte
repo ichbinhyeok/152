@@ -137,22 +137,22 @@
                 <div class="verdict-grid">
                     <article class="verdict-block">
                         <p class="mono-label">Coverage</p>
-                        <h3 id="resultCoverage">Verdict pending</h3>
+                        <h3 id="resultCoverage">Route pending</h3>
                         <p id="resultDueCycle">Cycle timing appears here after the property ledger is validated.</p>
                     </article>
                     <article class="verdict-block">
                         <p class="mono-label">Why this answer</p>
-                        <p id="resultSummary">Use the ledger on the left to calculate the likely next filing step.</p>
+                        <p id="resultSummary">Use the form on the left to narrow the likely next filing step.</p>
                         <ul class="rationale-list" id="resultRationale">
                             <li>Coverage logic renders after input validation.</li>
                             <li>Gas-status branching populates the directive ribbon.</li>
                         </ul>
-                        <p class="result-note" id="resultSourceNote">Official sources attach to the rendered verdict.</p>
+                        <p class="result-note" id="resultSourceNote">Official sources attach to the rendered route.</p>
                     </article>
                 </div>
 
                 <div class="verdict-actions">
-                    <a class="button" id="resultRouteLink" href="/filing-next-step/">Review the recommended route</a>
+                    <a class="button" id="resultRouteLink" href="/filing-next-step/">Open the recommended route</a>
                     <button class="button button--secondary" id="resultLeadButton" type="button" data-lead-open data-route-id="${page.id()}" data-route-path="${page.path()}" data-intent="filing_help">Send case details</button>
                 </div>
 
@@ -160,8 +160,8 @@
                     <article class="verdict-block">
                         <p class="mono-label">Do next</p>
                         <ul class="checklist-list" id="resultChecklist">
-                            <li>Run the verdict engine.</li>
-                            <li>Review the rendered route.</li>
+                            <li>Run the checker.</li>
+                            <li>Open the recommended route.</li>
                             <li>Prepare the next filing inputs.</li>
                         </ul>
                     </article>

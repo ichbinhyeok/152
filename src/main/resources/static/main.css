@@ -1936,9 +1936,12 @@ li {
     display: flex;
     align-items: flex-end;
     border: 0;
+    background-color: #10233d;
     background-image:
-        linear-gradient(100deg, rgba(16, 35, 61, 0.82) 8%, rgba(16, 35, 61, 0.46) 48%, rgba(16, 35, 61, 0.12) 100%),
-        var(--hero-image);
+        linear-gradient(106deg, rgba(16, 35, 61, 0.92) 10%, rgba(16, 35, 61, 0.7) 42%, rgba(16, 35, 61, 0.34) 74%, rgba(16, 35, 61, 0.12) 100%),
+        radial-gradient(circle at 84% 18%, rgba(199, 138, 45, 0.22), transparent 24%),
+        radial-gradient(circle at 12% 18%, rgba(47, 111, 237, 0.24), transparent 30%),
+        var(--hero-image, none);
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -1951,20 +1954,43 @@ li {
     width: 100%;
 }
 
+.dashboard-hero__head > div,
+.directive-hero__meta > div {
+    min-width: 0;
+}
+
 .dashboard-hero h1,
 .directive-hero h1 {
-    max-width: 11ch;
     margin-bottom: 18px;
 }
 
 .dashboard-hero h1 {
-    font-size: clamp(2.8rem, 6vw, 5.8rem);
+    max-width: 8.6ch;
+    font-size: clamp(2.8rem, 5.4vw, 5.2rem);
+}
+
+.directive-hero h1 {
+    max-width: 11.5ch;
+    font-size: clamp(2.6rem, 5.1vw, 4.9rem);
 }
 
 .dashboard-hero__summary {
     max-width: 36rem;
     font-size: 1.08rem;
     color: rgba(255, 255, 255, 0.88);
+    overflow-wrap: anywhere;
+}
+
+.directive-hero__summary {
+    overflow-wrap: anywhere;
+}
+
+.dashboard-hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+    margin: 24px 0 18px;
 }
 
 .signal-row__item {
@@ -2096,11 +2122,18 @@ li {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(247, 249, 251, 0.92) 100%);
 }
 
-.action-panel--dark,
+.action-panel--dark {
+    background: linear-gradient(180deg, rgba(16, 35, 61, 0.97) 0%, rgba(27, 52, 88, 0.94) 100%);
+    color: var(--white);
+}
+
 .directive-hero {
-    background:
-        linear-gradient(180deg, rgba(16, 35, 61, 0.95) 0%, rgba(27, 52, 88, 0.92) 100%),
-        var(--hero-image);
+    background-color: #10233d;
+    background-image:
+        linear-gradient(180deg, rgba(16, 35, 61, 0.9) 0%, rgba(16, 35, 61, 0.72) 52%, rgba(16, 35, 61, 0.42) 100%),
+        radial-gradient(circle at 88% 18%, rgba(199, 138, 45, 0.18), transparent 26%),
+        radial-gradient(circle at 10% 16%, rgba(47, 111, 237, 0.22), transparent 30%),
+        var(--hero-image, none);
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -2352,8 +2385,6 @@ th {
         padding: 28px 24px;
     }
 
-    .dashboard-hero__head,
-    .directive-hero__meta,
     .section-bar,
     .ledger-panel__header,
     .checker-form__actions,
@@ -2361,6 +2392,21 @@ th {
     .app-footer,
     .lead-drawer__header {
         flex-direction: column;
+    }
+
+    .dashboard-hero__head,
+    .directive-hero__meta {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .dashboard-hero__summary,
+    .directive-hero__summary {
+        max-width: none;
+    }
+
+    .document-meta {
+        max-width: 360px;
     }
 
     .command-grid,
@@ -2379,27 +2425,71 @@ th {
 
 @media (max-width: 720px) {
     .command-header {
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: stretch;
         gap: 12px;
         padding: 14px 16px;
     }
 
     .command-nav {
-        display: none;
+        display: flex;
+        width: 100%;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .command-nav__link {
+        flex: 1 1 calc(50% - 4px);
+        min-width: 0;
+        justify-content: center;
+        padding: 0 10px;
+        font-size: 0.88rem;
+    }
+
+    .button--header {
+        width: 100%;
     }
 
     .app-main {
         padding: 20px 16px 32px;
     }
 
-    .dashboard-hero {
+    .dashboard-hero,
+    .directive-hero {
         min-height: 0;
         padding: 24px 20px;
     }
 
     .dashboard-hero h1,
     .directive-hero h1 {
-        font-size: 2.3rem;
+        max-width: 8.8ch;
+        font-size: clamp(2.35rem, 13vw, 3.2rem);
+        line-height: 0.94;
+    }
+
+    .dashboard-hero__actions {
+        margin: 20px 0 16px;
+    }
+
+    .dashboard-hero__summary,
+    .directive-hero__summary,
+    .signal-row {
+        width: min(100%, 18.5rem);
+    }
+
+    .dashboard-hero__head,
+    .directive-hero__meta {
+        gap: 16px;
+    }
+
+    .document-meta {
+        max-width: none;
+        padding: 16px 18px;
+    }
+
+    .signal-row {
+        gap: 12px 16px;
     }
 
     .command-panel,

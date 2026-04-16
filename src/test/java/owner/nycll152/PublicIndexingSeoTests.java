@@ -79,6 +79,34 @@ class PublicIndexingSeoTests {
     }
 
     @Test
+    void redirectsWrongPublicHostToConfiguredCanonicalDomain() throws Exception {
+        mockMvc.perform(get("/filing-next-step/")
+                        .queryParam("preview", "1")
+                        .with(request -> {
+                            request.setServerName("www.example.test");
+                            request.setScheme("https");
+                            request.setSecure(true);
+                            return request;
+                        }))
+                .andExpect(status().isPermanentRedirect())
+                .andExpect(header().string("Location", "https://example.test/filing-next-step/?preview=1"));
+    }
+
+    @Test
+    void redirectsCanonicalHostToHttpsWhenRequestUsesHttp() throws Exception {
+        mockMvc.perform(get("/ll152-checker/")
+                        .with(request -> {
+                            request.setServerName("example.test");
+                            request.setScheme("http");
+                            request.setSecure(false);
+                            request.setServerPort(80);
+                            return request;
+                        }))
+                .andExpect(status().isPermanentRedirect())
+                .andExpect(header().string("Location", "https://example.test/ll152-checker/"));
+    }
+
+    @Test
     void sitemapListsIndexablePagesOnly() throws Exception {
         mockMvc.perform(get("/sitemap.xml"))
                 .andExpect(status().isOk())

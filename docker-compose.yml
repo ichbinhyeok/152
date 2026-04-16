@@ -1,0 +1,21 @@
+name: ll152guide
+
+services:
+  app:
+    image: ${IMAGE_NAME:-shinhyeok22/152:latest}
+    container_name: ll152guide
+    restart: unless-stopped
+    ports:
+      - "${HOST_PORT:-8099}:8080"
+    mem_limit: 768m
+    environment:
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE:-prod}
+      SERVER_PORT: 8080
+      APP_ADMIN_USERNAME: ${APP_ADMIN_USERNAME:-admin}
+      APP_ADMIN_PASSWORD: ${APP_ADMIN_PASSWORD:?APP_ADMIN_PASSWORD is required}
+      APP_STORAGE_ROOT: ${APP_STORAGE_ROOT:-/app/storage}
+      GG_JTE_DEVELOPMENT_MODE: "false"
+      GG_JTE_USE_PRECOMPILED_TEMPLATES: "true"
+      JAVA_OPTS: ${JAVA_OPTS:--XX:+UseG1GC -Xms256m -Xmx512m -Djava.security.egd=file:/dev/./urandom}
+    volumes:
+      - ./storage:/app/storage

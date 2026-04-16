@@ -36,6 +36,10 @@
                     <p class="eyebrow">NYC Local Law 152</p>
                     <h1>See the likely next filing step before you touch DOB NOW.</h1>
                     <p class="dashboard-hero__summary">Start with the building facts you already know. The checker narrows coverage, due timing, and the gas-status branch that changes the filing path.</p>
+                    <div class="dashboard-hero__actions">
+                        <a class="button button--inverse" href="/ll152-checker/">Run checker</a>
+                        <button class="ghost-link ghost-link--light" type="button" data-lead-open data-route-id="home-hero" data-route-path="/" data-intent="filing_help">Send case details</button>
+                    </div>
                     <div class="signal-row">
                         <span class="signal-row__item">Coverage first</span>
                         <span class="signal-row__item">Due-window logic active</span>

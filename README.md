@@ -107,6 +107,22 @@ Build a **LL152 checker + filing next-step + LMP routing** engine for users tryi
 - public indexing cannot be enabled while the admin password is still the default placeholder
 - public indexing cannot be enabled if any indexable route in `data/ops/route-status.csv` is not marked `current`
 
+## Domain and production base URL
+- canonical production domain is `https://ll152guide.com`
+- `app.base-url` is hardcoded to `https://ll152guide.com` in `application.properties`
+- requests that arrive on the wrong public host or over plain `http` are redirected to the configured canonical base URL
+- `app.public-indexing-enabled=false` is hardcoded for the first beta deploy
+- only the admin credentials should come from runtime environment variables: `APP_ADMIN_USERNAME` and `APP_ADMIN_PASSWORD`
+- use `.env.production.example` as the deployment variable checklist
+
+## OCI deploy baseline
+- GitHub Actions builds an ARM64 image and pushes `shinhyeok22/152`
+- OCI runs `docker compose` from `~/deploy/ll152guide`
+- nginx on the OCI host already routes `ll152guide.com` and `www.ll152guide.com` to `127.0.0.1:8099`
+- required GitHub Actions secrets: `DOCKERHUB_USERNAME`, `DOCKERHUB_TOKEN`, `OCI_HOST`, `OCI_USERNAME`, `OCI_KEY`, `APP_ADMIN_PASSWORD`
+- optional GitHub Actions secret: `APP_ADMIN_USERNAME` (defaults to `admin`)
+- optional GitHub Actions variable: `OCI_APP_PORT` (defaults to `8099`)
+
 ## Recommended launch geography
 Start with `NYC` only.
 

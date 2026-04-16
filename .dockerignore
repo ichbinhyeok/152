@@ -1,0 +1,10 @@
+.git
+.github
+.gradle
+build
+output
+storage
+jte-classes
+bootrun-*.log
+jar-run*.log
+*.iml
