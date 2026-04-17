@@ -115,10 +115,18 @@ class PublicIndexingSeoTests {
                 .andExpect(content().string(containsString("<loc>https://example.test/filing-next-step/</loc>")))
                 .andExpect(content().string(containsString("<loc>https://example.test/ll152-no-gas-piping-certification/</loc>")))
                 .andExpect(content().string(containsString("<loc>https://example.test/ll152-no-active-gas-service/</loc>")))
+                .andExpect(content().string(containsString("<loc>https://example.test/missed-ll152-deadline/</loc>")))
+                .andExpect(content().string(containsString("<loc>https://example.test/gps2-correction-after-inspection/</loc>")))
+                .andExpect(content().string(containsString("<loc>https://example.test/mixed-use-building-coverage/</loc>")))
+                .andExpect(content().string(containsString("<loc>https://example.test/gas-shutoff-but-piping-remains/</loc>")))
+                .andExpect(content().string(containsString("<loc>https://example.test/one-two-family-notice-conflict/</loc>")))
+                .andExpect(content().string(containsString("<loc>https://example.test/corrected-certification/</loc>")))
+                .andExpect(content().string(containsString("<loc>https://example.test/unsafe-condition/</loc>")))
+                .andExpect(content().string(containsString("<loc>https://example.test/exempt-building-notification/</loc>")))
                 .andExpect(content().string(containsString("<loc>https://example.test/privacy-data-use/</loc>")))
                 .andExpect(content().string(containsString("<loc>https://example.test/response-policy/</loc>")))
                 .andExpect(content().string(containsString("<loc>https://example.test/terms-disclaimer/</loc>")))
-                .andExpect(content().string(not(containsString("/corrected-certification/"))))
+                .andExpect(content().string(not(containsString("/lmp-finder/"))))
                 .andExpect(content().string(not(containsString("/admin"))));
     }
 

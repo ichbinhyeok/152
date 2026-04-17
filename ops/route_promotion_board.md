@@ -20,22 +20,22 @@ Default state for all held route families is `hold`.
   - the page adds value beyond the main due-cycle guide
 
 ### Corrected-certification routes
-- Current status: `hold`
-- Current surface: support or `noindex`
+- Current status: `promoted` on `2026-04-17`
+- Current surface: indexed support route
 - Promote when:
   - leads or support notes show repeated after-inspection correction confusion
   - the route helps the user take a real next step
 
 ### Unsafe-condition routes
-- Current status: `hold`
-- Current surface: support or `noindex`
+- Current status: `promoted` on `2026-04-17`
+- Current surface: indexed support route
 - Promote when:
   - urgent-condition queries show up repeatedly
   - the page can explain safe next steps without acting like emergency advice content
 
 ### Exempt-building challenge routes
-- Current status: `hold`
-- Current surface: support or `noindex`
+- Current status: `promoted` on `2026-04-17`
+- Current surface: indexed support route
 - Promote when:
   - challenge or exempt-building confusion shows repeated demand
   - the route adds real decision value

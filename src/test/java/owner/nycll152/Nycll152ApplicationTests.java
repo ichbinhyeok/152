@@ -167,7 +167,7 @@ class Nycll152ApplicationTests {
 
 	@Test
 	void heldRoutesEmitNoindex() throws Exception {
-		mockMvc.perform(get("/corrected-certification/"))
+		mockMvc.perform(get("/lmp-finder/"))
 				.andExpect(status().isOk())
 				.andExpect(content().string(containsString("noindex,follow")));
 	}

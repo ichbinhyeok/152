@@ -10,14 +10,14 @@ no-gas-vs-no-active-gas-service,/no-gas-vs-no-active-gas-service/,no-gas-split,p
 extension-penalty-waiver,/extension-penalty-waiver/,penalty,phase1,index,current,0,0,5,0,hold,Core verdict route.
 after-inspection-gps1-gps2,/after-inspection-gps1-gps2/,after-inspection,phase1,index,current,0,0,5,0,hold,Core verdict route.
 2026-deadline,/2026-deadline/,due-cycle,phase1,index,current,0,0,5,0,hold,Core verdict route.
-missed-ll152-deadline,/missed-ll152-deadline/,support,support,noindex,current,0,0,0,0,hold,Case guide held until support demand repeats.
-gps2-correction-after-inspection,/gps2-correction-after-inspection/,support,support,noindex,current,0,0,0,0,hold,Case guide held until after-inspection demand repeats.
-mixed-use-building-coverage,/mixed-use-building-coverage/,support,support,noindex,current,0,0,0,0,hold,Case guide held until mixed-use demand repeats.
-gas-shutoff-but-piping-remains,/gas-shutoff-but-piping-remains/,support,support,noindex,current,0,0,0,0,hold,Case guide held until no-active-service demand repeats.
-one-two-family-notice-conflict,/one-two-family-notice-conflict/,support,support,noindex,current,0,0,0,0,hold,Case guide held until exemption-conflict demand repeats.
-corrected-certification,/corrected-certification/,support,support,noindex,current,0,0,2,0,hold,Held route.
-unsafe-condition,/unsafe-condition/,support,support,noindex,current,0,0,0,0,hold,Held route.
-exempt-building-notification,/exempt-building-notification/,support,support,noindex,current,0,0,0,0,hold,Held route.
+missed-ll152-deadline,/missed-ll152-deadline/,support,support,index,current,0,0,0,0,hold,Promoted to indexed case guide after surface-alignment review.
+gps2-correction-after-inspection,/gps2-correction-after-inspection/,support,support,index,current,0,0,0,0,hold,Promoted to indexed case guide after surface-alignment review.
+mixed-use-building-coverage,/mixed-use-building-coverage/,support,support,index,current,0,0,0,0,hold,Promoted to indexed case guide after surface-alignment review.
+gas-shutoff-but-piping-remains,/gas-shutoff-but-piping-remains/,support,support,index,current,0,0,0,0,hold,Promoted to indexed case guide after surface-alignment review.
+one-two-family-notice-conflict,/one-two-family-notice-conflict/,support,support,index,current,0,0,0,0,hold,Promoted to indexed case guide after surface-alignment review.
+corrected-certification,/corrected-certification/,support,support,index,current,0,0,2,0,hold,Promoted to indexed support route after surface-alignment review.
+unsafe-condition,/unsafe-condition/,support,support,index,current,0,0,0,0,hold,Promoted to indexed support route after surface-alignment review.
+exempt-building-notification,/exempt-building-notification/,support,support,index,current,0,0,0,0,hold,Promoted to indexed support route after surface-alignment review.
 lmp-finder,/lmp-finder/,support,support,noindex,current,0,0,0,0,hold,Held route.
 district-overlay,/districts/{district}/,district-overlay,support,noindex,current,0,0,0,0,hold,Held template route.
 ll152-no-gas-piping-certification,/ll152-no-gas-piping-certification/,no-gas-split,phase1,index,current,0,0,2,0,hold,Core verdict route.

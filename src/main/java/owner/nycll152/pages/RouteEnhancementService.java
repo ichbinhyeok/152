@@ -203,6 +203,32 @@ public class RouteEnhancementService {
                     ),
                     List.of("periodic-gas-piping-inspections", "cycle-2-service-notice")
             );
+            case "corrected-certification" -> new RouteEnhancement(
+                    List.of(
+                            "Start with the original inspection date because the correction path runs from that sequence, not from the day you reopen the file.",
+                            "Keep the inspection result, the correction scope, and the follow-up filing owner together before deciding what is now due.",
+                            "Separate corrected certification from GPS2 so you do not treat every post-inspection step as the same filing."
+                    ),
+                    List.of(
+                            "You still do not know whether the work is finished, whether a reinspection is needed, or whether corrected certification can already be filed.",
+                            "The case may already be late because the post-inspection clock kept running while the work stayed unresolved.",
+                            "You cannot yet tie the completed work back to the original condition language in the inspection output."
+                    ),
+                    List.of("periodic-gas-piping-inspections", "ll152-faqs", "rcny-103-10")
+            );
+            case "unsafe-condition" -> new RouteEnhancement(
+                    List.of(
+                            "Preserve the original inspection language before you turn this into a normal filing discussion.",
+                            "Separate immediate notice steps from later certification or correction steps.",
+                            "Keep the owner, utility, and DOB notification facts together before asking for route help."
+                    ),
+                    List.of(
+                            "The inspection result may require immediate utility, DOB, or owner notice before routine filing work continues.",
+                            "You are not sure whether the condition belongs in an emergency-response path or a standard correction path.",
+                            "The case summary already dropped the original unsafe or hazardous inspection language."
+                    ),
+                    List.of("ll152-faqs", "periodic-gas-piping-inspections")
+            );
             case "2026-deadline" -> new RouteEnhancement(
                     List.of(
                             "Verify the current community district before treating the 2026 window as final.",

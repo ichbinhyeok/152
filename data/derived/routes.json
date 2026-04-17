@@ -726,7 +726,7 @@
         "path":  "/missed-ll152-deadline/",
         "family":  "support",
         "phase":  "support",
-        "indexStatus":  "noindex",
+        "indexStatus":  "index",
         "eyebrow":  "Case guide",
         "title":  "Missed LL152 deadline: what to do before penalty gets worse",
         "summary":  "Use this case page when the building should have filed already and the real question is whether to fix the missed step, challenge the notice, or prepare a waiver request.",
@@ -773,7 +773,7 @@
         "path":  "/gps2-correction-after-inspection/",
         "family":  "support",
         "phase":  "support",
-        "indexStatus":  "noindex",
+        "indexStatus":  "index",
         "eyebrow":  "Case guide",
         "title":  "GPS2 correction after inspection: what gets filed next",
         "summary":  "Use this case page when the inspection already happened and the open issue is GPS2, correction timing, or how to document follow-up work before deadlines stack.",
@@ -820,7 +820,7 @@
         "path":  "/mixed-use-building-coverage/",
         "family":  "support",
         "phase":  "support",
-        "indexStatus":  "noindex",
+        "indexStatus":  "index",
         "eyebrow":  "Case guide",
         "title":  "Mixed-use building LL152 coverage: what usually decides it",
         "summary":  "Use this case page when a building has residential and commercial use and the main question is whether the official property record still puts it on an LL152 filing path.",
@@ -867,7 +867,7 @@
         "path":  "/gas-shutoff-but-piping-remains/",
         "family":  "support",
         "phase":  "support",
-        "indexStatus":  "noindex",
+        "indexStatus":  "index",
         "eyebrow":  "Case guide",
         "title":  "Gas shut off but piping remains: LL152 no active gas service case",
         "summary":  "Use this case page when the building no longer receives gas service but piping is still in place and you need the recurring documentation path, not the one-time no-piping certification.",
@@ -914,7 +914,7 @@
         "path":  "/one-two-family-notice-conflict/",
         "family":  "support",
         "phase":  "support",
-        "indexStatus":  "noindex",
+        "indexStatus":  "index",
         "eyebrow":  "Case guide",
         "title":  "One- or two-family building got an LL152 notice: what to check first",
         "summary":  "Use this case page when a building looks exempt as a one- or two-family property but DOB or DOF records still point you toward an LL152 notice, filing, or penalty.",
@@ -961,29 +961,45 @@
         "path":  "/corrected-certification/",
         "family":  "support",
         "phase":  "support",
-        "indexStatus":  "noindex",
-        "eyebrow":  "Held support route",
-        "title":  "Corrected certification support route",
-        "summary":  "This page stays held until after-inspection and correction confusion shows repeated demand.",
-        "hero":  "Use this page as support context only until it earns promotion.",
+        "indexStatus":  "index",
+        "eyebrow":  "Correction guide",
+        "title":  "LL152 corrected certification: what gets filed after conditions were fixed",
+        "summary":  "Use this page when the inspection found conditions, the correction work is already done or underway, and the open question is what the corrected-certification filing actually requires next.",
+        "hero":  "A corrected certification is not the same step as GPS2. Use this page when the building already moved past the inspection result and now needs the follow-up correction filing path.",
         "imageUrl":  "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format\u0026fit=crop\u0026w=1600\u0026q=80",
         "imageAlt":  "Sunlit Manhattan street with mid-rise buildings.",
         "ctaLabel":  "Get help with this filing step",
         "ctaIntent":  "filing_help",
         "sections":  [
                          {
-                             "title":  "Current status",
-                             "paragraphs":  [
-                                                "This page is available as support context, but it remains out of the public index until repeated correction demand proves it helps users take a real next step."
+                            "title":  "Use this page when",
+                            "paragraphs":  [
+                                                "Use this page when the inspection already happened, conditions were identified, and the main blocker is what has to be filed after the correction work is complete.",
+                                                "The practical question is usually whether the building is still waiting on work, ready for corrected certification, or already late because the post-inspection clock kept running."
                                             ],
-                             "bullets":  [
-                                             "Noindex by default",
-                                             "Linked only when relevant to after-inspection guidance"
+                            "bullets":  [
+                                             "Start with the original inspection date and condition status",
+                                             "Keep the LMP report and the correction scope together",
+                                             "Separate corrected certification from GPS2 before deciding what is due"
                                          ]
-                         }
-                     ],
+                        },
+                        {
+                            "title":  "What usually changes the answer",
+                            "paragraphs":  [
+                                                "Correction cases go wrong when owners treat every post-inspection filing as the same step.",
+                                                "The deadline, signer, and next move can change depending on whether the condition is already fixed, still being fixed, or needs a new inspection before certification."
+                                            ],
+                            "bullets":  [
+                                             "Do not assume GPS2 closes the correction path",
+                                             "Do not assume a contractor invoice by itself is the final filing support",
+                                             "Do not wait on penalty notices to figure out whether corrected certification is already due"
+                                         ]
+                        }
+                    ],
         "relatedPaths":  [
-                             "/after-inspection-gps1-gps2/"
+                             "/after-inspection-gps1-gps2/",
+                             "/gps2-correction-after-inspection/",
+                             "/filing-next-step/"
                          ]
     },
     {
@@ -992,29 +1008,45 @@
         "path":  "/unsafe-condition/",
         "family":  "support",
         "phase":  "support",
-        "indexStatus":  "noindex",
-        "eyebrow":  "Held support route",
-        "title":  "Unsafe-condition support route",
-        "summary":  "This support page remains held until urgent-condition demand repeats enough to justify a dedicated route.",
-        "hero":  "Use this page as contextual help only. It is not emergency advice content.",
+        "indexStatus":  "index",
+        "eyebrow":  "Unsafe-condition guide",
+        "title":  "LL152 unsafe or hazardous condition: what happens immediately after inspection",
+        "summary":  "Use this page when the inspection did not end as a routine filing case because the condition may be unsafe, hazardous, or serious enough that the next move is immediate reporting rather than ordinary scheduling.",
+        "hero":  "An unsafe or hazardous LL152 result is not a normal follow-up page. Use this route when the inspection result may trigger immediate notice to the utility, DOB, and the owner before the regular filing sequence continues.",
         "imageUrl":  "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format\u0026fit=crop\u0026w=1600\u0026q=80",
         "imageAlt":  "High-rise buildings across the New York skyline.",
         "ctaLabel":  "Get LL152 inspection help",
         "ctaIntent":  "lmp_help",
         "sections":  [
                          {
-                             "title":  "Current status",
-                             "paragraphs":  [
-                                                "This page is intentionally held and noindex until it can explain safe next steps without turning into thin or overly broad emergency-advice content."
+                            "title":  "Use this page when",
+                            "paragraphs":  [
+                                                "Use this page when the inspection result points to an unsafe or hazardous condition and the next move is no longer just GPS1, GPS2, or a routine correction deadline.",
+                                                "The goal here is to separate immediate reporting obligations from the later paperwork so the case does not get treated like an ordinary compliance follow-up."
                                             ],
-                             "bullets":  [
-                                             "Use the main guidance pages first",
-                                             "Promote only if urgent-condition demand repeats"
+                            "bullets":  [
+                                             "Unsafe-condition cases can trigger immediate notice requirements",
+                                             "Treat utility, DOB, and owner notice as distinct from later filing steps",
+                                             "Keep the inspection result and any emergency action details together"
                                          ]
-                         }
-                     ],
+                        },
+                        {
+                            "title":  "What not to blur together",
+                            "paragraphs":  [
+                                                "This page is not general emergency advice and it is not the same as every correction case.",
+                                                "The practical distinction is whether the condition requires immediate notification first, or whether the building is already back in a normal corrected-certification or GPS2 path."
+                                            ],
+                            "bullets":  [
+                                             "Do not downgrade a hazardous finding into a normal timing question",
+                                             "Do not assume later filing deadlines replace immediate reporting duties",
+                                             "Do not lose the original inspection language when asking for help"
+                                         ]
+                        }
+                    ],
         "relatedPaths":  [
-                             "/filing-next-step/"
+                             "/filing-next-step/",
+                             "/after-inspection-gps1-gps2/",
+                             "/corrected-certification/"
                          ]
     },
     {
@@ -1023,33 +1055,46 @@
         "path":  "/exempt-building-notification/",
         "family":  "support",
         "phase":  "support",
-        "indexStatus":  "noindex",
-        "eyebrow":  "Held support route",
-        "title":  "Exempt-building challenge support route",
-        "summary":  "This page remains held until exemption and challenge confusion produces repeat demand.",
-        "hero":  "Use this page when the property looks exempt on paper, but the DOB or DOF profile still points the owner toward an LL152 filing or violation path.",
+        "indexStatus":  "index",
+        "eyebrow":  "Exemption guide",
+        "title":  "LL152 exempt building notification: when the property record points the wrong way",
+        "summary":  "Use this page when the building looks exempt on paper, but DOB or DOF records still point the owner toward an LL152 filing, notice, or violation path.",
+        "hero":  "This route is for record conflict, not guesswork. Use it when the property profile appears exempt but the official city record still drives the building into an LL152 filing or notice path.",
         "imageUrl":  "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format\u0026fit=crop\u0026w=1600\u0026q=80",
         "imageAlt":  "Apartment buildings viewed across a city skyline.",
         "ctaLabel":  "Get exempt-building review",
         "ctaIntent":  "filing_help",
         "sections":  [
                          {
-                             "title":  "Current status",
-                             "paragraphs":  [
-                                                "This page exists as support-only context. It should not become a public indexable page until exemption confusion shows enough repeat demand to justify it.",
-                                                "The current DOB inspections page says one- and two-family homes and listed R-3 style DOF classifications do not need to comply with LL152."
+                            "title":  "Use this page when",
+                            "paragraphs":  [
+                                                "Use this page when the building appears exempt because of occupancy or DOF class, but the city record or notice still treats it like an LL152 filing case.",
+                                                "The practical job is to verify the property record, not to assume the notice is right just because it was issued."
                                             ],
-                             "bullets":  [
-                                             "Noindex by default",
+                            "bullets":  [
                                              "Use DOF class and official property-profile checks before assuming an exemption",
                                              "Cycle 2 violation notices allow challenge or waiver requests within 30 days from the notice date",
                                              "If a one- or two-family home is misclassified, use the exempt-building notification path rather than assuming the notice is correct"
                                          ]
-                         }
-                     ],
+                        },
+                        {
+                            "title":  "What usually drives this page",
+                            "paragraphs":  [
+                                                "Most exemption conflicts come from the property record, not from the owner's memory of the building type.",
+                                                "One- and two-family notices, mixed-use confusion, and R-3 style classifications are the recurring reasons this route matters."
+                                            ],
+                            "bullets":  [
+                                             "Check the DOF class before deciding whether to file or challenge",
+                                             "Keep BIN, BBL, and the notice copy together",
+                                             "Do not pay a penalty first if the exemption question is still unresolved"
+                                         ]
+                        }
+                    ],
         "relatedPaths":  [
                              "/ll152-checker/",
-                             "/methodology/"
+                             "/one-two-family-notice-conflict/",
+                             "/mixed-use-building-coverage/",
+                             "/extension-penalty-waiver/"
                          ]
     },
     {
