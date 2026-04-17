@@ -20,7 +20,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest(properties = {
-        "app.base-url=https://example.test"
+        "app.base-url=https://example.test",
+        "app.public-indexing-enabled=false"
 })
 @AutoConfigureMockMvc
 class PackagedDataFallbackTests {

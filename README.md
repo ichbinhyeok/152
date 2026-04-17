@@ -101,7 +101,7 @@ Build a **LL152 checker + filing next-step + LMP routing** engine for users tryi
 - Pre-deploy locks are active by default: admin authentication, global noindex, disallow-all `robots.txt`, request rate limiting, CSP and browser security headers, and deployment guards for public indexing
 
 ## Pre-deploy locks
-- `app.public-indexing-enabled=false` is the safe default and keeps the whole site out of the index until you explicitly enable it
+- `app.public-indexing-enabled=true` is now enabled for the live domain, but the deployment guards still block startup if the public-indexing requirements are not met
 - `/admin` requires HTTP Basic auth using `app.admin.username` and `app.admin.password`
 - public indexing cannot be enabled with a localhost or non-HTTPS `app.base-url`
 - public indexing cannot be enabled while the admin password is still the default placeholder
@@ -111,7 +111,7 @@ Build a **LL152 checker + filing next-step + LMP routing** engine for users tryi
 - canonical production domain is `https://ll152guide.com`
 - `app.base-url` is hardcoded to `https://ll152guide.com` in `application.properties`
 - requests that arrive on the wrong public host or over plain `http` are redirected to the configured canonical base URL
-- `app.public-indexing-enabled=false` is hardcoded for the first beta deploy
+- `app.public-indexing-enabled=true` is now hardcoded for the live deploy on `ll152guide.com`
 - only the admin credentials should come from runtime environment variables: `APP_ADMIN_USERNAME` and `APP_ADMIN_PASSWORD`
 - use `.env.production.example` as the deployment variable checklist
 

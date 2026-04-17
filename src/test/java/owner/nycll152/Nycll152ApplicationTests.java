@@ -27,7 +27,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@SpringBootTest
+@SpringBootTest(properties = {
+		"app.public-indexing-enabled=false"
+})
 @AutoConfigureMockMvc
 class Nycll152ApplicationTests {
 
@@ -151,7 +153,7 @@ class Nycll152ApplicationTests {
 	}
 
 	@Test
-	void indexingIsLockedByDefault() throws Exception {
+	void indexingLocksWhenDisabled() throws Exception {
 		mockMvc.perform(get("/"))
 				.andExpect(status().isOk())
 				.andExpect(header().string("X-Robots-Tag", "noindex, nofollow"))
